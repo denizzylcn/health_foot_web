@@ -1,0 +1,53 @@
+.hero {
+    text-align: center;
+    background-color: #f4f0ff;
+    padding: 2rem;
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 1rem;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .services {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .service-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .service-card {
+    background-color: #7e57c2;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+  }
+  
