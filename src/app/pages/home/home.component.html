@@ -1,51 +1,74 @@
-<<<<<<< HEAD
-<div class="hero">
-    <img src="assets/logo.png" alt="Logo" class="logo" />
-    <h4>Elazığ’ın Önde Gelen</h4>
-    <h1>El ve Ayak Bakım Hizmetleri</h1>
-    <p>
-      Sağlığınız ve estetik beklentilerinizi karşılamak için buradayız.
-      Uzman ekibimizle, en iyi bakımı deneyimleyin.
-    </p>
-  </div>
-  
-  <div class="features">
-    <div class="card">
-      <h3>🧑‍⚕️ Uzman Destek</h3>
-      <p>Sorunlarınız uzmanlarımız tarafından incelenerek doğru süreç bilgisi verilir.</p>
-    </div>
-    <div class="card">
-      <h3>😊 Güler Yüzlü Hizmet</h3>
-      <p>Kontrol süreçlerinizde, güler yüzlü ve konforlu hizmetimizin rahatlığını yaşarsınız.</p>
-    </div>
-    <div class="card">
-      <h3>💬 Bakım Sonrası Danışmanlık</h3>
-      <p>Uzmanlarımız tüm sürecinizi takip eder ve bakım sonrası tüm sorularınızı yanıtlar.</p>
+<div class="hero-section">
+  <div class="overlay">
+    <div class="hero-content">
+      <h1>El ve Ayak Bakım Hizmetleri</h1>
+      <p>Sağlığınızı ve estetik beklentilerinizi karşılamak için buradayız.</p>
     </div>
   </div>
-  
-  <div class="about">
-    <h2>Hakkımızda</h2>
-    <p>
-      Elazığ Ayak Bakım Merkezi olarak, deneyimli ekibimizle ayak ve el bakımında güvenilir hizmetler sunuyoruz. 
-      Müşteri memnuniyetini esas alıyor, modern tekniklerle sağlıklı ve estetik çözümler sağlıyoruz.
-    </p>
-  </div>
-  
-  <div class="services">
-    <h2>Başlıca Hizmetlerimiz</h2>
-    <div class="service-list">
-      <div class="service-card">💼 Medikal Bakım</div>
-      <div class="service-card">🦶 Nasır Temizliği</div>
-      <div class="service-card">🦶‍💥 Tırnak Batması</div>
-      <div class="service-card">🦠 Tırnak Mantar Tedavisi</div>
-      <div class="service-card">💧 Topuk Çatlağı Bakımı</div>
-    </div>
-  </div>
-  
-=======
-<h1>Ayak Bakım Merkezine Hoş Geldiniz</h1>
-<p>Profesyonel ayak bakım hizmetleriyle sağlıklı ve rahat adımlar atın.</p>
-<img src="./assets/ayak.jpeg" alt="Ayak Bakım Hizmeti" width="300">
+</div>
 
->>>>>>> 29737ad (İlk commit: Ayak Bakım projesi eklendi)
+<div class="features">
+  <div class="card">
+    <h3>🧑‍⚕️ Uzman Destek</h3>
+    <p>Sorunlarınız uzmanlarımız tarafından incelenerek doğru süreç bilgisi verilir.</p>
+  </div>
+  <div class="card">
+    <h3>😊 Güler Yüzlü Hizmet</h3>
+    <p>Kontrol süreçlerinizde, güler yüzlü ve konforlu hizmetimizin rahatlığını yaşarsınız.</p>
+  </div>
+  <div class="card">
+    <h3>💬 Bakım Sonrası Danışmanlık</h3>
+    <p>Uzmanlarımız tüm sürecinizi takip eder ve bakım sonrası tüm sorularınızı yanıtlar.</p>
+  </div>
+</div>
+
+<div class="about">
+  <h2>Hakkımızda</h2>
+  <p>
+    Elazığ Ayak Bakım Merkezi olarak, deneyimli ekibimizle ayak ve el bakımında güvenilir hizmetler sunuyoruz. 
+    Müşteri memnuniyetini esas alıyor, modern tekniklerle sağlıklı ve estetik çözümler sağlıyoruz.
+  </p>
+</div>
+
+<div class="services">
+  <h2>Başlıca Hizmetlerimiz</h2>
+  <div class="service-list">
+    <div
+      class="service-card"
+      *ngFor="let service of services"
+      [ngStyle]="{ 'background-color': service.bgColor }"
+    >
+      <h3>{{ service.icon }} {{ service.name }}</h3>
+      <p>{{ service.description }}</p>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-section">
+      <h3>Ayak Bakım Elazığ</h3>
+      <p>📍 Sarıdağ Plaza, Yeni Mah. Muaammer Çorbacioğlu Sk. No:35 D:4.kat İç Kapı No:23, 23000 Elazığ Merkez / Elazığ</p>
+      <p>📞 <a href="tel:+905354941431">+90 535 494 14 31</a></p>
+      <p>💬 <a href="https://wa.me/905354941431" target="_blank">WhatsApp ile ulaşın</a></p>
+    </div>
+  
+    <!-- 👇 Google Maps -->
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.477785038047!2d39.2221537!3d38.6800169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4076373a8f0d53df%3A0x56de192b9487d820!2sSarıdağ%20Plaza!5e0!3m2!1str!2str!4v1714661946957"
+        width="100%"
+        height="250"
+        style="border:0; margin-top: 1rem;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  
+    <p class="footer-copy">© 2024 Ayak Bakım Merkezi - Tüm hakları saklıdır.</p>
+  </footer>
+  
+  <!-- ⬆ Scroll-to-top -->
+  <button class="scroll-to-top" (click)="scrollToTop()">⬆</button>
+
+
+</div>
+

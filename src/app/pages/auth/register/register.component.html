@@ -1,0 +1,56 @@
+
+<div class="register-container">
+    <h2>Kayıt Ol</h2>
+  
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+      <!-- İsim -->
+      <div class="form-group">
+        <label for="name">İsim</label>
+        <input id="name" type="text" formControlName="name" placeholder="Adınızı girin" />
+        <div class="error" *ngIf="f['name'].touched && f['name'].invalid">
+          <small *ngIf="f['name'].errors?.['required']">İsim zorunludur.</small>
+        </div>
+      </div>
+  
+      <!-- E-posta -->
+      <div class="form-group">
+        <label for="email">E-posta</label>
+        <input id="email" type="email" formControlName="email" placeholder="E-posta adresinizi girin" />
+        <div class="error" *ngIf="f['email'].touched && f['email'].invalid">
+          <small *ngIf="f['email'].errors?.['required']">E-posta zorunludur.</small>
+          <small *ngIf="f['email'].errors?.['email']">Geçerli bir e-posta girin.</small>
+        </div>
+      </div>
+  
+      <!-- Şifre -->
+      <div class="form-group">
+        <label for="password">Şifre</label>
+        <input id="password" type="password" formControlName="password" placeholder="Şifrenizi oluşturun" />
+        <div class="error" *ngIf="f['password'].touched && f['password'].invalid">
+          <small *ngIf="f['password'].errors?.['required']">Şifre zorunludur.</small>
+          <small *ngIf="f['password'].errors?.['minlength']">Şifre en az 6 karakter olmalı.</small>
+        </div>
+      </div>
+  
+      <!-- Şifre Tekrar -->
+      <div class="form-group">
+        <label for="confirmPassword">Şifre Tekrar</label>
+        <input id="confirmPassword" type="password" formControlName="confirmPassword" placeholder="Şifrenizi tekrar girin" />
+        <div class="error" *ngIf="f['confirmPassword'].touched && f['confirmPassword'].invalid">
+          <small *ngIf="f['confirmPassword'].errors?.['required']">Şifre tekrarı zorunludur.</small>
+        </div>
+        <div class="error" *ngIf="registerForm.errors?.['passwordMismatch'] && registerForm.touched">
+          <small>Şifreler uyuşmuyor.</small>
+        </div>
+      </div>
+  
+      <!-- Buton -->
+      <button type="submit" [disabled]="registerForm.invalid">Kayıt Ol</button>
+    </form>
+  
+    <p class="login-link">
+      Zaten bir hesabınız var mı?
+      <a routerLink="/auth/login">Giriş Yap</a>
+    </p>
+  </div>
+  

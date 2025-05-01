@@ -1,0 +1,44 @@
+<div class="login-container">
+    <h2>Giriş Yap</h2>
+  
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <!-- E-mail -->
+      <div class="form-group">
+        <label for="email">E-posta</label>
+        <input
+          id="email"
+          type="email"
+          formControlName="email"
+          placeholder="E-posta adresinizi girin"
+        />
+        <div class="error" *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.invalid">
+          <small *ngIf="loginForm.get('email')?.errors?.['required']">E-posta zorunludur.</small>
+          <small *ngIf="loginForm.get('email')?.errors?.['email']">Geçerli bir e-posta girin.</small>
+        </div>
+      </div>
+  
+      <!-- Şifre -->
+      <div class="form-group">
+        <label for="password">Şifre</label>
+        <input
+          id="password"
+          type="password"
+          formControlName="password"
+          placeholder="Şifrenizi girin"
+        />
+        <div class="error" *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid">
+          <small *ngIf="loginForm.get('password')?.errors?.['required']">Şifre zorunludur.</small>
+          <small *ngIf="loginForm.get('password')?.errors?.['minlength']">Şifre en az 6 karakter olmalı.</small>
+        </div>
+      </div>
+  
+      <!-- Buton -->
+      <button type="submit" [disabled]="loginForm.invalid">Giriş Yap</button>
+    </form>
+  
+    <p class="register-link">
+      Hesabınız yok mu?
+      <a routerLink="/auth/register">Kayıt Ol</a>
+    </p>
+  </div>
+  

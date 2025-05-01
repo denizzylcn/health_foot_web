@@ -1,11 +1,16 @@
-<nav>
-  <ul>
-    <li><a routerLink="/">Ana Sayfa</a></li>
-    <li><a routerLink="/services">Hizmetler</a></li>
+<nav class="navbar">
+  <div class="nav-logo">
+    <img src="assets/logo.png" alt="Logo" />
+  </div>
+  <ul class="nav-links">
+    <li><a routerLink="/">Anasayfa</a></li>
+    <li><a routerLink="/services">Hizmetlerimiz</a></li>
     <li><a routerLink="/appointments">Randevu Al</a></li>
+    <li><a routerLink="/auth/login">Giriş Yap</a></li>
+    <li><a routerLink="/auth/register">Kayıt Ol</a></li>
   </ul>
 </nav>
 
-<!-- Sayfa içeriği burada değişecek -->
 <router-outlet></router-outlet>
+
 
