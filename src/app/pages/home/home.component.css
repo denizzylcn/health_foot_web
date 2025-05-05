@@ -37,6 +37,16 @@
   font-size: 1.5rem;
 }
 
+.welcome-message {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #6a1b9a;
+}
+
+
+
 
 .logo {
   width: 120px;
