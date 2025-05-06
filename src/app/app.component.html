@@ -1,10 +1,27 @@
 <nav class="navbar">
   <div class="nav-logo">
-    <img src="assets/logo.png" alt="Logo" />
+    <img src="assets/el.jpeg" alt="Logo" />
   </div>
   <ul class="nav-links">
     <li><a routerLink="/">Anasayfa</a></li>
-    <li><a routerLink="/services">Hizmetlerimiz</a></li>
+
+    <li class="dropdown">
+      <a href="#">Hizmetlerimiz</a>
+      <ul class="dropdown-content">
+        <li><a href="#"><span class="icon">▸</span> Medikal Ayak Bakımı</a></li>
+        <li><a href="#"><span class="icon">▸</span> Nasır Temizleme</a></li>
+        <li><a href="#"><span class="icon">▸</span> Tırnak Mantar Tedavisi</a></li>
+        <li><a href="#"><span class="icon">▸</span> Topuk Çatlağı Temizleme</a></li>
+        <li><a href="#"><span class="icon">▸</span> Batık Tırnak Bakımı</a></li>
+        <li><a href="#"><span class="icon">▸</span> Kalınlaşmış Tırnak Bakımı</a></li>
+        <li><a href="#"><span class="icon">▸</span> Travmatik Tırnak Bakımı</a></li>
+        <li><a href="#"><span class="icon">▸</span> Geriatrik (Yaşlı) Ayak Bakımı</a></li>
+        <li><a href="#"><span class="icon">▸</span> Hamile Ayak Bakımı</a></li>
+        <li><a href="#"><span class="icon">▸</span> Evde Hizmet</a></li>
+        <li><a href="#"><span class="icon">▸</span> Refleksoloji Masajı</a></li>
+      </ul>
+    </li>
+
     <li><a routerLink="/appointments">Randevu Al</a></li>
     <li><a routerLink="/auth/login">Giriş Yap</a></li>
     <li><a routerLink="/auth/register">Kayıt Ol</a></li>
@@ -12,5 +29,3 @@
 </nav>
 
 <router-outlet></router-outlet>
-
-

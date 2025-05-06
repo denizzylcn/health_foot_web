@@ -1,48 +1,76 @@
 .hero-section {
   position: relative;
-  background-image: url('/assets/hero.jpg'); /* Varsa bu kalsın */
+  background-image: url('/assets/ana.jpg'); 
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   height: 90vh;
+  padding: 6rem 2rem;
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* ⬅ Ortadan sağa kaydırma */
+  justify-content: center; /* Ortalanmış içerik daha dengeli görünür */
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color:  rgba(245, 233, 255, 0.85); /* Arka plan opaklığı */
+  z-index: 1;
+}
+
+.hero-section > * {
+  position: relative;
+  z-index: 2;
 }
 
 .overlay {
-  background: rgba(209, 187, 239, 0.4); /* Hafif daha şeffaf yapabilirsin */
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-   
+  background: transparent; /* Ekstra renk katmanı gerekmedikçe kaldırıldı */
 }
 
 .hero-content {
-  text-align: center; 
+  text-align: center;
   color: #222;
-  padding: 2rem ; /* Sağda biraz boşluk bırak */
-  max-width: 700px; /* Metin çok yayılmasın */
+  padding: 2rem;
+  max-width: 700px;
 }
 
-
 .hero-content h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
 .hero-content p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
-.welcome-message {
-  text-align: center;
-  font-size: 1.2rem;
+
+.welcome-bar {
+  background-color: #f8f0ff; /* Açık mor */
+  padding: 10px 20px;
   font-weight: bold;
-  margin: 1rem 0;
-  color: #6a1b9a;
+  color: #5e2b97;
+}
+
+.highlight-section {
+  background-color: #e3d5f9; /* Biraz daha koyu mor */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.highlight-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.highlight-section p {
+  font-size: 1.2rem;
 }
 
 
