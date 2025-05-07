@@ -1,0 +1,78 @@
+.contact-hero {
+    background-color: #4a2560;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .contact-hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #faf6fc;
+    border-radius: 10px;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+  
+  .tab-buttons button {
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #eee;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .tab-buttons button.active {
+    background-color: #5e2ca5;
+    color: white;
+  }
+  
+  .contact-form .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-group.checkbox {
+    margin-top: 1rem;
+  }
+  
+  .submit-button {
+    background-color: #5e2ca5;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

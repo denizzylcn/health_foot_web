@@ -3,11 +3,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { AppointmentsComponent } from './pages/appointments/appointments.component';
+import { ContactComponent } from './pages/contact/contact.component';
+
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent }, // Ana sayfa
   { path: 'services', component: ServicesComponent }, // Hizmetler sayfası
   { path: 'appointments', component: AppointmentsComponent }, // Randevu alma sayfası
+  { path: 'contact', component: ContactComponent },
   { path: '**', redirectTo: '', pathMatch: 'full' } // Geçersiz URL’lerde ana sayfaya yönlendir
 ];
 

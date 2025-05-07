@@ -3,10 +3,10 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterModule],
+  standalone: true,
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  standalone: true  // AppComponent'i standalone olarak tanımlıyoruz
+  imports: [RouterModule]
 })
 export class AppComponent {
   title = 'ayak-bakim-web';

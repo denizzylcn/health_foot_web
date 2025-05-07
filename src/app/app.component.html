@@ -8,23 +8,25 @@
     <li class="dropdown">
       <a href="#">Hizmetlerimiz</a>
       <ul class="dropdown-content">
-        <li><a href="#"><span class="icon">▸</span> Medikal Ayak Bakımı</a></li>
-        <li><a href="#"><span class="icon">▸</span> Nasır Temizleme</a></li>
-        <li><a href="#"><span class="icon">▸</span> Tırnak Mantar Tedavisi</a></li>
-        <li><a href="#"><span class="icon">▸</span> Topuk Çatlağı Temizleme</a></li>
-        <li><a href="#"><span class="icon">▸</span> Batık Tırnak Bakımı</a></li>
-        <li><a href="#"><span class="icon">▸</span> Kalınlaşmış Tırnak Bakımı</a></li>
-        <li><a href="#"><span class="icon">▸</span> Travmatik Tırnak Bakımı</a></li>
-        <li><a href="#"><span class="icon">▸</span> Geriatrik (Yaşlı) Ayak Bakımı</a></li>
-        <li><a href="#"><span class="icon">▸</span> Hamile Ayak Bakımı</a></li>
-        <li><a href="#"><span class="icon">▸</span> Evde Hizmet</a></li>
-        <li><a href="#"><span class="icon">▸</span> Refleksoloji Masajı</a></li>
+        <li><a [routerLink]="['/hizmetler', 'medikal-ayak-bakimi']"><span class="icon">▸</span> Medikal Ayak Bakımı</a></li>
+        <li><a [routerLink]="['/hizmetler', 'nasir-temizleme']"><span class="icon">▸</span> Nasır Temizleme</a></li>
+        <li><a [routerLink]="['/hizmetler', 'tirnak-mantar-tedavisi']"><span class="icon">▸</span> Tırnak Mantar Tedavisi</a></li>
+        <li><a [routerLink]="['/hizmetler', 'topuk-catlagi-temizleme']"><span class="icon">▸</span> Topuk Çatlağı Temizleme</a></li>
+        <li><a [routerLink]="['/hizmetler', 'batik-tirnak-bakimi']"><span class="icon">▸</span> Batık Tırnak Bakımı</a></li>
+        <li><a [routerLink]="['/hizmetler', 'kalinlasmis-tirnak-bakimi']"><span class="icon">▸</span> Kalınlaşmış Tırnak Bakımı</a></li>
+        <li><a [routerLink]="['/hizmetler', 'travmatik-tirnak-bakimi']"><span class="icon">▸</span> Travmatik Tırnak Bakımı</a></li>
+        <li><a [routerLink]="['/hizmetler', 'geriatrik-ayak-bakimi']"><span class="icon">▸</span> Geriatrik (Yaşlı) Ayak Bakımı</a></li>
+        <li><a [routerLink]="['/hizmetler', 'hamile-ayak-bakimi']"><span class="icon">▸</span> Hamile Ayak Bakımı</a></li>
+        <li><a [routerLink]="['/hizmetler', 'evde-hizmet']"><span class="icon">▸</span> Evde Hizmet</a></li>
+        <li><a [routerLink]="['/hizmetler', 'refleksoloji-masaji']"><span class="icon">▸</span> Refleksoloji Masajı</a></li>
       </ul>
+      
     </li>
 
     <li><a routerLink="/appointments">Randevu Al</a></li>
     <li><a routerLink="/auth/login">Giriş Yap</a></li>
     <li><a routerLink="/auth/register">Kayıt Ol</a></li>
+    <li><a routerLink="/contact">Bize Ulaşın</a></li>
   </ul>
 </nav>
 

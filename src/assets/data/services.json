@@ -1,0 +1,192 @@
+[
+  {
+    "id": "medikal-ayak-bakimi",
+    "title": "Medikal Ayak Bakımı",
+    "coverImage": "assets/images/medikal.jpg",
+    "description": "Ayaklarımız, gün boyunca vücudumuzun tüm yükünü taşıyan, ancak çoğu zaman ihmal edilen en önemli organlarımızdandır. Medikal ayak bakımı, yalnızca estetik değil; sağlık açısından da oldukça önemli olan, uzmanlar tarafından uygulanan kapsamlı bir ayak bakım türüdür.",
+    "details": [
+      {
+        "title": "Medikal Ayak Bakımı Nedir?",
+        "text": "Medikal ayak bakımı, yalnızca estetik kaygılarla yapılan klasik ayak bakımından çok daha öte; ayak sağlığını korumaya, mevcut rahatsızlıkları erken dönemde fark etmeye ve bunlara yönelik profesyonel çözümler sunmaya odaklanan kapsamlı bir bakım sürecidir. Bu uygulama, özellikle ayakta ortaya çıkabilecek sağlık sorunlarını önleyici ve tedavi edici nitelikte olmasıyla ön plana çıkar.\n\nBakım işlemleri, steril ve hijyenik koşullar altında, bu alanda eğitim almış uzmanlar tarafından gerçekleştirilir. Kullanılan cihazlar ve ürünler medikal kaliteye sahiptir; bu da işlemlerin hem güvenli hem de etkili olmasını sağlar. Uygulama sırasında sıklıkla şu işlemler yapılır:\n- Nasır temizliği\n- Topuk çatlağı onarımı\n- Batık tırnak düzenlemesi\n- Tırnak mantarı kontrolü\n- Bası noktası analizi\n- Dolaşım gözlemi\n\nTüm bu işlemler sayesinde yalnızca mevcut problemler giderilmez, aynı zamanda ileride oluşabilecek ciddi rahatsızlıkların da önüne geçilir."
+      },
+      {
+        "title": "Kimler Medikal Ayak Bakımı Yaptırmalı?",
+        "text": "Medikal ayak bakımı yalnızca belirli bir yaş grubuna ya da hastalık geçmişine sahip kişilere özel değildir. Ayak sağlığı, yaşam kalitesini doğrudan etkileyen temel unsurlardan biri olduğu için bu bakım, herkesin düzenli olarak yaptırması gereken önleyici ve koruyucu bir uygulamadır.\n\nÖzellikle aşağıdaki gruplar için medikal ayak bakımı oldukça gereklidir:\n- Diyabet hastaları: Ayak ülseri, enfeksiyon ve doku kaybı riskini azaltmak için\n- Sporcular: Nasır, batık, mantar gibi baskıya bağlı problemlerden korunmak için\n- Hamile bireyler: Ağırlık ve ödem kaynaklı ayak sorunlarını azaltmak için\n- Uzun süre ayakta çalışanlar: Ayak ağrısı ve bası problemlerine karşı koruyucu bakım için\n- Estetik ve hijyenik bakım isteyen herkes: Sağlıklı, pürüzsüz ve bakımlı ayaklara sahip olmak için"
+      }
+    ],
+    "faq": [
+      {
+        "question": "1. Medikal ayak bakımı ne kadar sürer?",
+        "answer": "Bakım süresi kişinin ayak yapısına ve mevcut problemlerine göre değişmekle birlikte genellikle 45 dakika ile 1 saat arasında sürmektedir."
+      },
+      {
+        "question": "2. Acılı bir işlem midir?",
+        "answer": "Hayır, medikal ayak bakımı acısız ve konforlu bir işlemdir. İşlem sırasında steril cihazlar kullanılır ve cilt bütünlüğüne zarar verilmez. Eğer ağrılı bir durum varsa bu genellikle batık veya iltihaplı bir sorunla ilgilidir ve işlem öncesi gerekli önlemler alınır."
+      },
+      {
+        "question": "3. Ayak bakımı sonrası nelere dikkat etmeliyim?",
+        "answer": "İşlem sonrası ayaklar nemli tutulmalı, pamuklu çorap tercih edilmeli ve ayaklara birkaç saat baskı yapılmamalıdır. Ayrıca, uzman önerisiyle verilen ürünler düzenli olarak kullanılmalıdır."
+      },
+      {
+        "question": "4. Diyabet hastasıyım, bu bakım bana uygun mu?",
+        "answer": "Kesinlikle evet! Medikal ayak bakımı, diyabet hastaları için özel olarak planlanır. Steril çalışıldığı için enfeksiyon riski minimumdur ve dolaşım problemleri dikkate alınarak işlem yapılır."
+      },
+      {
+        "question": "5. İşlem sonrası hemen ayakkabı giyebilir miyim?",
+        "answer": "Evet, işlem sonrası günlük yaşantınıza dönebilirsiniz. Ancak dar, havasız ayakkabılardan kaçınılması tavsiye edilir. Ayağınızın nefes alabileceği konforlu ayakkabılar tercih edilmelidir."
+      },
+      {
+        "question": "6. Ne sıklıkla medikal ayak bakımı yaptırmalıyım?",
+        "answer": "Genel olarak 4 ila 6 haftada bir yapılması önerilir. Ancak diyabet gibi özel durumlarda bu süre daha sık olabilir; uzman yönlendirmesi alınmalıdır."
+      },
+      {
+        "question": "7. Evde kendi başıma medikal ayak bakımı yapabilir miyim?",
+        "answer": "Evde yapılan bakımlar yüzeysel olur ve tıbbi bakım yerine geçmez. Medikal ayak bakımı, uzman bilgisi ve steril ekipman gerektirdiği için profesyonel şekilde yapılmalıdır."
+      }
+    ]
+  },
+  {
+    "id": "batik-tirnak-bakimi",
+    "title": "Batık Tırnak Bakımı",
+    "coverImage": "assets/images/batık.png",
+    "description": "Batık tırnak bakımı, tırnağın cilde doğru uzayarak ağrı, şişlik ve enfeksiyona neden olduğu durumlarda uygulanan profesyonel bir bakım yöntemidir. Uzmanlar tarafından uygulanan bu yöntemle hem estetik görünüm sağlanır hem de sağlık açısından riskler önlenir.",
+    "details": [
+      {
+        "title": "Batık Tırnak Bakımı Hakkında Detaylı Bilgi",
+        "text": "Batık tırnak, küçük bir sorun gibi görünse de, zamanla kişilerin yaşam kalitesini ciddi şekilde düşürebilir. Tırnak kenarlarının deriye doğru büyümesi sonucu oluşan bu rahatsızlık, yürüme, koşma hatta ayakkabı giyme gibi günlük aktivitelerde yoğun ağrıya ve rahatsızlığa neden olur. Eğer müdahale edilmezse, enfeksiyon riski artar ve bu durum daha ciddi sağlık sorunlarına yol açabilir.\n\nBatık Tırnak Bakımının Temel Faydaları:\n- Ağrı ve Rahatsızlığı Azaltır\n- Enfeksiyonları Önler\n- Tırnak Yapısını Korur\n- Günlük Konfor Sağlar\n\nEstefoot olarak, batık tırnak probleminizi hızlı, etkili ve konforlu yöntemlerle çözüme kavuşturuyoruz. Alanında uzman ekibimizle sizlere güvenli ve kalıcı çözümler sunuyoruz.\n\nBatık Tırnakta Kullanılan Yöntemler\n🔧 3TO Tel Sistemi\nBatık tırnak tedavisinde dünya genelinde en çok tercih edilen yöntemlerden biri olan 3TO Tel Sistemi, tırnağın iki yanına özel titanyum teller uygulanarak tırnağın yukarıya doğru kaldırılmasını sağlar. Bu şekilde tırnak yatağı baskıdan kurtulur, doğal formuna döner ve ağrısız şekilde uzamaya devam eder.\n\nAvantajları:\n- Uygulama süresi: sadece 10 dakika\n- Acısız ve hızlı bir işlemdir\n- Tırnak yapısına özel uygulanır\n- İşlem sonrası ayakkabı giyilebilir\n- Duş, havuz, deniz gibi aktiviteler engellenmez\n- İlk seanstan itibaren ağrı hissi önemli ölçüde azalır\n\n🔩 BS Bant Sistemi\nTırnağın yüzeyine yapıştırılan özel bir bant ile düz bir yay etkisi yaratılarak tırnak kademeli olarak yukarıya çekilir. Bu sistem genellikle daha yüzeysel batıklarda tercih edilir.\n\nBakım Süresi:\n- Bant her 1-2 ayda bir yenilenir\n- Toplam tedavi süresi batığın durumuna göre 3-9 ay arası değişebilir\n\nUygulama Mekanizması:\n- Tırnağı nazikçe kaldırmak ve serbestleştirmek\n- Yana baskı yapan kenarları rahatlatmak\n- Doğru tırnak uzamasını teşvik etmek\n- Yeniden batmayı engellemek\n\nBu sistemlerle roll-on (kıvrık) tırnaklar düzeltilir, tırnak kenarları genişletilir ve baskıya bağlı oluşan ağrılar ortadan kaldırılır. Aynı zamanda dolaşım düzenlenir ve estetik olarak düzgün bir tırnak yapısı sağlanır.\n\nBatık Tırnak Oluşumunun Nedenleri:\n- Dar, sivri burunlu ya da topuklu ayakkabı kullanımı\n- Yanlış tırnak kesimi (çok kısa ve kenarlardan oval)\n- Ayak travmaları\n- Tırnak ya da cilt hastalıkları\n- Genetik yatkınlık\n- Ayak ve parmak yapısının bilinmemesi\n- Mevcut sorunlara erken müdahale edilmemesi\n\nHangi Durumlarda Batık Tırnak Uygulaması Yapılır?\n- Kronikleşmiş tırnak batmaları\n- Tırnak altı ve kenarında nasır oluşumu (hiperkeratoz)\n- Tırnak yatağında daralma\n- Tırnağı etkileyen yapısal hastalıklar\n- Ayakkabı baskısıyla şekli bozulan tırnaklar\n\nEğer sen de batık tırnak sorunu yaşıyorsan, bu sorunu ötelemek yerine uzman desteğiyle kalıcı olarak çözümle. Ayakların seni özgürce taşısın! 🌿"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Batık tırnak bakımı acıtır mı?",
+        "answer": "Hayır, işlem lokal müdahalelerle acısız şekilde yapılır. Ağrı varsa, öncesinde bölgeye rahatlatıcı uygulamalar yapılır."
+      },
+      {
+        "question": "Ne kadar sürede iyileşme olur?",
+        "answer": "Kişinin tırnak yapısına göre değişmekle birlikte, 1-3 hafta içinde rahatlama sağlanır."
+      },
+      {
+        "question": "Tek seans yeterli olur mu?",
+        "answer": "Çoğu zaman tek seansla rahatlama sağlanır ancak bazı kişilerde takip seansı gerekebilir."
+      }
+    ]
+  },
+  {
+    "id": "hamile-ayak-bakimi",
+    "title": "Hamile Ayak Bakımı",
+    "coverImage": "assets/images/hamile.png",
+    "description": "Hamilelik, bir kadının hayatındaki en özel ve en hassas dönemlerden biridir. Bu süreçte vücut sadece bir bebek değil, aynı zamanda birçok fiziksel ve hormonal değişimi de taşır. Artan vücut ağırlığı, ödem, kan dolaşımındaki değişiklikler ve hormonal dalgalanmalar; özellikle ayaklarda bazı rahatsızlıkların ortaya çıkmasına neden olabilir. İşte tam da bu yüzden, hamilelikte ayak bakımı yalnızca bir lüks değil, zorunlu bir ihtiyaçtır.",
+    "details": [
+      {
+        "title": "Hamilelikte Karşılaşılan Yaygın Ayak Problemleri 👣",
+        "text": "- Ayak Şişmesi ve Yanma: Hamilelikte artan kan hacmi ve damar genişlemesi, ayaklarda şişlik ve yanma hissine yol açabilir. Özellikle gün sonunda bu belirtiler daha da belirginleşebilir.\n- Tırnak Batması: Ödem ve kilo artışı, ayak yapısının değişmesine ve tırnakların deriye baskı yapmasına neden olur. Bu da tırnak batmasını daha sık görülür hale getirir.\n- Bası Problemleri ve Nasır: Değişen duruş ve yürüme şekli, ayak tabanında yoğun baskı oluşmasına neden olur. Bu da nasır, çatlak ve benzeri cilt sorunlarını beraberinde getirir."
+      },
+      {
+        "title": "Hamilelikte Ayak Bakımı Neden Önemlidir?",
+        "text": "- Rahatlık ve Hareket Özgürlüğü Sağlar: Düzenli bakım, ayak ağrılarını ve ödemi azaltarak anne adayının daha konforlu bir hamilelik geçirmesini sağlar.\n- Problemleri Önceden Engeller: Uzman tarafından yapılan düzenli bakım sayesinde tırnak batması, nasır gibi sorunlar henüz oluşmadan önlenebilir.\n- Doğru Ayakkabı ve Destek Seçimi: Hamilelikte ayak sağlığı için doğru ayakkabı tercihi ve kişiye özel ortopedik tabanlık desteği büyük fark yaratır. Ayakta oluşabilecek yapısal bozulmaların önüne geçilmiş olur.\n\nUnutmayın: Sağlıklı ayaklar, huzurlu bir hamilelik demektir. Kendinize bu özel dönemde iyi bakın, ayaklarınıza da…"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Hamilelikte ayak bakımı sırasında hangi işlemler yapılır?",
+        "answer": "Hamilelikte yapılan ayak bakımı işlemleri genellikle tırnak kesimi, nasır temizliği, topuk bakımı, cilt nemlendirme ve basıya bağlı oluşan sertliklerin giderilmesini içerir. İşlemler anne adayına özel planlanır ve tamamen ağrısızdır."
+      },
+      {
+        "question": "Hamilelikte ayak bakımı güvenli midir?",
+        "answer": "Evet. Uzmanlar tarafından, steril ortamda ve hamileliğe özel ürünlerle yapılan ayak bakımları hem güvenlidir hem de önerilir. İşlem sırasında anne ve bebek sağlığı gözetilir."
+      },
+      {
+        "question": "Hamilelikte ayak bakımı şişlikleri azaltır mı?",
+        "answer": "Evet. Düzenli bakım ve masaj, lenf ve kan dolaşımını destekler, bu da ödemin atılmasına yardımcı olur. Böylece şişliklerde belirgin azalma sağlanabilir."
+      },
+      {
+        "question": "Hamilelikte tırnak kesimi nasıl yapılmalıdır?",
+        "answer": "Tırnaklar düz ve köşeleri çok derin kesilmeden alınmalıdır. Bu, batık riskini azaltır. Ulaşmak zorlaştığında mutlaka uzman yardımı alınmalıdır."
+      },
+      {
+        "question": "Hamilelikte ayak bakımı hangi sıklıkla yapılmalıdır?",
+        "answer": "Genellikle 3-4 haftada bir düzenli bakım önerilir. Ancak bireysel ihtiyaçlara göre sıklık artırılabilir. Özellikle ödemli dönemlerde daha sık bakım fayda sağlar."
+      },
+      {
+        "question": "Hamilelikte ayaklarda oluşan kuruluk nasıl giderilir?",
+        "answer": "Hamilelikte cilt kuruluğu yaygın görülür. Düzenli nemlendirme, bitkisel içerikli özel kremler ve peeling işlemleri kuruluğu azaltır, cilt yumuşak ve sağlıklı kalır."
+      },
+      {
+        "question": "Hamilelikte ayakkabı seçimi neden önemlidir?",
+        "answer": "Vücut ağırlığı arttıkça ayak yapısı değişebilir. Ortopedik, destekleyici ve nefes alabilir ayakkabılar tercih edilmelidir. Doğru ayakkabı, bası problemlerinin önüne geçer."
+      },
+      {
+        "question": "Hamilelikte ayak bakımı çatlak topuklara iyi gelir mi?",
+        "answer": "Evet. Ölü deri temizliği, nemlendirici maskeler ve özel topuk bakımları ile çatlakların iyileşmesi hızlandırılır ve yeniden oluşumu önlenir."
+      },
+      {
+        "question": "Hamilelikte ayak masajı güvenli midir?",
+        "answer": "Eğer düşük riski gibi özel bir durum yoksa, uzmanlar tarafından uygulanan hafif ayak masajı güvenlidir ve rahatlama sağlar. Dolaşımı artırır, ödemi azaltır, uyku kalitesini bile olumlu etkiler."
+      },
+      {
+        "id": "nasir-temizleme",
+        "title": "Nasır Temizleme",
+        "coverImage": "assets/images/nasır.jpg",
+        "description": "Ayaklar, gün boyunca bedenimizin yükünü taşıyan ve çoğu zaman yeterince özen gösterilmeyen en önemli bölgelerden biridir. Zamanla sürtünme, bası ve yanlış ayakkabı kullanımı gibi etkenler sonucu oluşan nasırlar, hem estetik açıdan hem de fiziksel konfor açısından can sıkıcı hale gelebilir. Özellikle yürürken hissedilen ağrı ve rahatsızlık, günlük yaşam kalitesini ciddi şekilde düşürebilir.",
+        "details": [
+          {
+            "title": "Neden Nasır Temizliği Gerekli?",
+            "text": "Nasırlar, cildin kendini koruma refleksiyle verdiği tepkilerdir. Ancak bu tepki zamanla kalınlaşmış, sertleşmiş ve hassaslaşmış deri alanlarına dönüşür. Tedavi edilmeden bırakıldığında;\n- Yürümede güçlük, ayakta ağrı ve yanma hissi oluşabilir\n- Estetik olarak rahatsız edici bir görüntüye neden olabilir\n- Enfeksiyon riski taşıyan çatlaklar oluşabilir\n- Cilt sağlığını uzun vadede tehdit eder\n\nBu yüzden nasırların uzmanlar tarafından, steril koşullarda ve uygun tekniklerle temizlenmesi büyük önem taşır."
+          },
+          {
+            "title": "Nasıl Bir Uygulama Yapılır?",
+            "text": "Nasır temizleme işlemi kişiye özel olarak planlanır. İşlem öncesinde ayak yapısı, nasırın konumu ve derinliği analiz edilir. Ardından şu adımlar izlenir:\n- Cilt analizi ile nasırın tipi belirlenir\n- Steril ve ağrısız ekipmanlarla temizleme işlemi yapılır\n- Cilt dokusunun toparlanması için besleyici bakım ürünleri uygulanır\n- Yeniden oluşumun önlenmesi için koruyucu öneriler ve bilgilendirme sunulur\n\nİşlem sırasında acı hissi yaşanmaz; işlem tamamlandığında kişi ayakkabısını giyip günlük yaşamına kaldığı yerden devam edebilir."
+          },
+          {
+            "title": "Nasır Oluşumunu Önlemek Mümkün mü?",
+            "text": "Evet. Doğru ayakkabı seçimi, düzenli ayak bakımı ve nasıra yatkın bölgelerin korunması, bu sorunun tekrarlamasını büyük ölçüde engeller. Uzman desteğiyle uygulanan bakım protokolleri sayesinde sadece mevcut nasır değil, gelecekte oluşabilecek problemler de kontrol altına alınır."
+          }
+        ],
+        "faq": [
+          {
+            "question": "Nasır temizleme işlemi nedir?",
+            "answer": "Nasır temizleme, ayaklarda oluşan sertleşmiş ve kalınlaşmış deri tabakalarının özel cihazlar ve tekniklerle temizlenmesidir. Bu işlem, ağrıyı azaltır ve ayak sağlığını iyileştirir."
+          },
+          {
+            "question": "Nasır neden oluşur?",
+            "answer": "Nasır, sürekli baskı, sürtünme, dar ayakkabı kullanımı veya yanlış ayak basma gibi nedenlerle cildin kendini korumak için kalınlaşması sonucu oluşur."
+          },
+          {
+            "question": "Nasır temizleme işlemi acı verir mi?",
+            "answer": "Hayır. Profesyonel olarak yapılan işlemler ağrısızdır. Cilt yüzeyinde, canlı dokuya zarar vermeden uygulandığı için kişi rahatlıkla işlem sırasında konforunu korur."
+          },
+          {
+            "question": "Nasır temizleme işlemi nasıl yapılır?",
+            "answer": "Öncelikle ayak değerlendirilir, ardından steril ekipmanlarla kalınlaşmış doku kontrollü şekilde temizlenir. İşlem sonrası cilt nemlendirilir ve bakım önerileri sunulur."
+          },
+          {
+            "question": "Evde nasır temizlemek doğru mudur?",
+            "answer": "Genellikle önerilmez. Evde yapılan müdahaleler enfeksiyon riskini artırabilir veya ciltte yaralanmalara sebep olabilir. Uzman desteği ile profesyonel bakım daha güvenlidir."
+          },
+          {
+            "question": "Nasır temizleme işlemi ne kadar sürer?",
+            "answer": "Nasırın boyutuna ve sayısına göre değişmekle birlikte işlem süresi ortalama 20-30 dakika arasındadır."
+          },
+          {
+            "question": "Nasır temizleme işlemi sonrası nelere dikkat edilmelidir?",
+            "answer": "İşlem sonrası ayakların nemli tutulması, dar ayakkabılardan kaçınılması ve uzman tarafından önerilen ürünlerin düzenli kullanılması önemlidir."
+          },
+          {
+            "question": "Nasır tekrar oluşur mu?",
+            "answer": "Eğer aynı baskı, sürtünme ya da yanlış ayakkabı alışkanlığı devam ederse nasır tekrar oluşabilir. Bu nedenle koruyucu önlemler alınması gerekir."
+          },
+          {
+            "question": "Nasır temizleme işlemi hangi sıklıkla yapılmalıdır?",
+            "answer": "Genellikle 4-6 haftada bir önerilir. Ancak nasır yapısına ve kişisel ayak bakım alışkanlıklarına göre bu süre değişebilir."
+          },
+          {
+            "question": "Nasır temizleme işlemi hijyenik midir?",
+            "answer": "Evet. İşlem steril ekipmanlarla, hijyen kurallarına uygun şekilde gerçekleştirilir. Her işlem kişiye özel ve güvenli koşullarda yapılır."
+          }
+        
+    ]
+  }
+
+]
+}
+]

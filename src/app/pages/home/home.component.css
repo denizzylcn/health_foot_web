@@ -214,27 +214,27 @@
   margin-top: 0.5rem;
 }
 
+/* Genel kutu */
 .info-review-box {
-  background-color: #f3e5f5;
-  padding: 2rem;
-  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.info-section, .map-section, .review-section {
-  margin-bottom: 1.5rem;
+/* 📍 Adres + Harita kutusu */
+.review-section {
+  background-color: #f3e5f5; /* Açık mor arka plan */
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
   text-align: center;
 }
 
-.info-section h2,
-.review-section h2 {
-  color: #6a1b9a;
-  margin-bottom: 0.5rem;
+.review-section .section-title {
+  color: #7e57c2;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
 }
-
-.info-section p {
-  margin: 0.2rem 0;
-  font-size: 0.95rem;
-}
-

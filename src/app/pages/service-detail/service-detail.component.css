@@ -1,0 +1,95 @@
+.page-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+/* ÜST KISIM */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #4b2a78;
+  color: white;
+  padding: 40px;
+  border-radius: 0 0 20px 20px;
+  flex-wrap: wrap;
+}
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+.hero-img img {
+  max-width: 350px;
+  border-radius: 12px;
+}
+.cta-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: white;
+  color: #4b2a78;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* AÇIKLAMALAR */
+.details {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+.detail-block {
+  margin-bottom: 30px;
+}
+.detail-block h2 {
+  color: #4b2a78;
+  margin-bottom: 10px;
+}
+
+.faq-section {
+  padding: 30px 20px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.faq-question {
+  font-weight: 500;
+  font-size: 16px;
+  color: #4b2a78;
+  background: transparent;
+  padding: 10px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.faq-question::before {
+  content: '❓';
+  color: #6a1b9a;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.faq-answer {
+  background-color: #f4f1fb;
+  padding: 15px 20px;
+  border-radius: 12px;
+  color: #333;
+  margin-top: 8px;
+  animation: fadeIn 0.2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
