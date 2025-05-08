@@ -122,71 +122,69 @@
       {
         "question": "Hamilelikte ayak masajı güvenli midir?",
         "answer": "Eğer düşük riski gibi özel bir durum yoksa, uzmanlar tarafından uygulanan hafif ayak masajı güvenlidir ve rahatlama sağlar. Dolaşımı artırır, ödemi azaltır, uyku kalitesini bile olumlu etkiler."
+      }
+    ]
+  },
+  {
+    "id": "nasir-temizleme",
+    "title": "Nasır Temizleme",
+    "coverImage": "assets/images/nasır.jpg",
+    "description": "Ayaklar, gün boyunca bedenimizin yükünü taşıyan ve çoğu zaman yeterince özen gösterilmeyen en önemli bölgelerden biridir. Zamanla sürtünme, bası ve yanlış ayakkabı kullanımı gibi etkenler sonucu oluşan nasırlar, hem estetik açıdan hem de fiziksel konfor açısından can sıkıcı hale gelebilir. Özellikle yürürken hissedilen ağrı ve rahatsızlık, günlük yaşam kalitesini ciddi şekilde düşürebilir.",
+    "details": [
+      {
+        "title": "Neden Nasır Temizliği Gerekli?",
+        "text": "Nasırlar, cildin kendini koruma refleksiyle verdiği tepkilerdir. Ancak bu tepki zamanla kalınlaşmış, sertleşmiş ve hassaslaşmış deri alanlarına dönüşür. Tedavi edilmeden bırakıldığında;\n- Yürümede güçlük, ayakta ağrı ve yanma hissi oluşabilir\n- Estetik olarak rahatsız edici bir görüntüye neden olabilir\n- Enfeksiyon riski taşıyan çatlaklar oluşabilir\n- Cilt sağlığını uzun vadede tehdit eder\n\nBu yüzden nasırların uzmanlar tarafından, steril koşullarda ve uygun tekniklerle temizlenmesi büyük önem taşır."
       },
       {
-        "id": "nasir-temizleme",
-        "title": "Nasır Temizleme",
-        "coverImage": "assets/images/nasır.jpg",
-        "description": "Ayaklar, gün boyunca bedenimizin yükünü taşıyan ve çoğu zaman yeterince özen gösterilmeyen en önemli bölgelerden biridir. Zamanla sürtünme, bası ve yanlış ayakkabı kullanımı gibi etkenler sonucu oluşan nasırlar, hem estetik açıdan hem de fiziksel konfor açısından can sıkıcı hale gelebilir. Özellikle yürürken hissedilen ağrı ve rahatsızlık, günlük yaşam kalitesini ciddi şekilde düşürebilir.",
-        "details": [
-          {
-            "title": "Neden Nasır Temizliği Gerekli?",
-            "text": "Nasırlar, cildin kendini koruma refleksiyle verdiği tepkilerdir. Ancak bu tepki zamanla kalınlaşmış, sertleşmiş ve hassaslaşmış deri alanlarına dönüşür. Tedavi edilmeden bırakıldığında;\n- Yürümede güçlük, ayakta ağrı ve yanma hissi oluşabilir\n- Estetik olarak rahatsız edici bir görüntüye neden olabilir\n- Enfeksiyon riski taşıyan çatlaklar oluşabilir\n- Cilt sağlığını uzun vadede tehdit eder\n\nBu yüzden nasırların uzmanlar tarafından, steril koşullarda ve uygun tekniklerle temizlenmesi büyük önem taşır."
-          },
-          {
-            "title": "Nasıl Bir Uygulama Yapılır?",
-            "text": "Nasır temizleme işlemi kişiye özel olarak planlanır. İşlem öncesinde ayak yapısı, nasırın konumu ve derinliği analiz edilir. Ardından şu adımlar izlenir:\n- Cilt analizi ile nasırın tipi belirlenir\n- Steril ve ağrısız ekipmanlarla temizleme işlemi yapılır\n- Cilt dokusunun toparlanması için besleyici bakım ürünleri uygulanır\n- Yeniden oluşumun önlenmesi için koruyucu öneriler ve bilgilendirme sunulur\n\nİşlem sırasında acı hissi yaşanmaz; işlem tamamlandığında kişi ayakkabısını giyip günlük yaşamına kaldığı yerden devam edebilir."
-          },
-          {
-            "title": "Nasır Oluşumunu Önlemek Mümkün mü?",
-            "text": "Evet. Doğru ayakkabı seçimi, düzenli ayak bakımı ve nasıra yatkın bölgelerin korunması, bu sorunun tekrarlamasını büyük ölçüde engeller. Uzman desteğiyle uygulanan bakım protokolleri sayesinde sadece mevcut nasır değil, gelecekte oluşabilecek problemler de kontrol altına alınır."
-          }
-        ],
-        "faq": [
-          {
-            "question": "Nasır temizleme işlemi nedir?",
-            "answer": "Nasır temizleme, ayaklarda oluşan sertleşmiş ve kalınlaşmış deri tabakalarının özel cihazlar ve tekniklerle temizlenmesidir. Bu işlem, ağrıyı azaltır ve ayak sağlığını iyileştirir."
-          },
-          {
-            "question": "Nasır neden oluşur?",
-            "answer": "Nasır, sürekli baskı, sürtünme, dar ayakkabı kullanımı veya yanlış ayak basma gibi nedenlerle cildin kendini korumak için kalınlaşması sonucu oluşur."
-          },
-          {
-            "question": "Nasır temizleme işlemi acı verir mi?",
-            "answer": "Hayır. Profesyonel olarak yapılan işlemler ağrısızdır. Cilt yüzeyinde, canlı dokuya zarar vermeden uygulandığı için kişi rahatlıkla işlem sırasında konforunu korur."
-          },
-          {
-            "question": "Nasır temizleme işlemi nasıl yapılır?",
-            "answer": "Öncelikle ayak değerlendirilir, ardından steril ekipmanlarla kalınlaşmış doku kontrollü şekilde temizlenir. İşlem sonrası cilt nemlendirilir ve bakım önerileri sunulur."
-          },
-          {
-            "question": "Evde nasır temizlemek doğru mudur?",
-            "answer": "Genellikle önerilmez. Evde yapılan müdahaleler enfeksiyon riskini artırabilir veya ciltte yaralanmalara sebep olabilir. Uzman desteği ile profesyonel bakım daha güvenlidir."
-          },
-          {
-            "question": "Nasır temizleme işlemi ne kadar sürer?",
-            "answer": "Nasırın boyutuna ve sayısına göre değişmekle birlikte işlem süresi ortalama 20-30 dakika arasındadır."
-          },
-          {
-            "question": "Nasır temizleme işlemi sonrası nelere dikkat edilmelidir?",
-            "answer": "İşlem sonrası ayakların nemli tutulması, dar ayakkabılardan kaçınılması ve uzman tarafından önerilen ürünlerin düzenli kullanılması önemlidir."
-          },
-          {
-            "question": "Nasır tekrar oluşur mu?",
-            "answer": "Eğer aynı baskı, sürtünme ya da yanlış ayakkabı alışkanlığı devam ederse nasır tekrar oluşabilir. Bu nedenle koruyucu önlemler alınması gerekir."
-          },
-          {
-            "question": "Nasır temizleme işlemi hangi sıklıkla yapılmalıdır?",
-            "answer": "Genellikle 4-6 haftada bir önerilir. Ancak nasır yapısına ve kişisel ayak bakım alışkanlıklarına göre bu süre değişebilir."
-          },
-          {
-            "question": "Nasır temizleme işlemi hijyenik midir?",
-            "answer": "Evet. İşlem steril ekipmanlarla, hijyen kurallarına uygun şekilde gerçekleştirilir. Her işlem kişiye özel ve güvenli koşullarda yapılır."
-          }
-        
+        "title": "Nasıl Bir Uygulama Yapılır?",
+        "text": "Nasır temizleme işlemi kişiye özel olarak planlanır. İşlem öncesinde ayak yapısı, nasırın konumu ve derinliği analiz edilir. Ardından şu adımlar izlenir:\n- Cilt analizi ile nasırın tipi belirlenir\n- Steril ve ağrısız ekipmanlarla temizleme işlemi yapılır\n- Cilt dokusunun toparlanması için besleyici bakım ürünleri uygulanır\n- Yeniden oluşumun önlenmesi için koruyucu öneriler ve bilgilendirme sunulur\n\nİşlem sırasında acı hissi yaşanmaz; işlem tamamlandığında kişi ayakkabısını giyip günlük yaşamına kaldığı yerden devam edebilir."
+      },
+      {
+        "title": "Nasır Oluşumunu Önlemek Mümkün mü?",
+        "text": "Evet. Doğru ayakkabı seçimi, düzenli ayak bakımı ve nasıra yatkın bölgelerin korunması, bu sorunun tekrarlamasını büyük ölçüde engeller. Uzman desteğiyle uygulanan bakım protokolleri sayesinde sadece mevcut nasır değil, gelecekte oluşabilecek problemler de kontrol altına alınır."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Nasır temizleme işlemi nedir?",
+        "answer": "Nasır temizleme, ayaklarda oluşan sertleşmiş ve kalınlaşmış deri tabakalarının özel cihazlar ve tekniklerle temizlenmesidir. Bu işlem, ağrıyı azaltır ve ayak sağlığını iyileştirir."
+      },
+      {
+        "question": "Nasır neden oluşur?",
+        "answer": "Nasır, sürekli baskı, sürtünme, dar ayakkabı kullanımı veya yanlış ayak basma gibi nedenlerle cildin kendini korumak için kalınlaşması sonucu oluşur."
+      },
+      {
+        "question": "Nasır temizleme işlemi acı verir mi?",
+        "answer": "Hayır. Profesyonel olarak yapılan işlemler ağrısızdır. Cilt yüzeyinde, canlı dokuya zarar vermeden uygulandığı için kişi rahatlıkla işlem sırasında konforunu korur."
+      },
+      {
+        "question": "Nasır temizleme işlemi nasıl yapılır?",
+        "answer": "Öncelikle ayak değerlendirilir, ardından steril ekipmanlarla kalınlaşmış doku kontrollü şekilde temizlenir. İşlem sonrası cilt nemlendirilir ve bakım önerileri sunulur."
+      },
+      {
+        "question": "Evde nasır temizlemek doğru mudur?",
+        "answer": "Genellikle önerilmez. Evde yapılan müdahaleler enfeksiyon riskini artırabilir veya ciltte yaralanmalara sebep olabilir. Uzman desteği ile profesyonel bakım daha güvenlidir."
+      },
+      {
+        "question": "Nasır temizleme işlemi ne kadar sürer?",
+        "answer": "Nasırın boyutuna ve sayısına göre değişmekle birlikte işlem süresi ortalama 20-30 dakika arasındadır."
+      },
+      {
+        "question": "Nasır temizleme işlemi sonrası nelere dikkat edilmelidir?",
+        "answer": "İşlem sonrası ayakların nemli tutulması, dar ayakkabılardan kaçınılması ve uzman tarafından önerilen ürünlerin düzenli kullanılması önemlidir."
+      },
+      {
+        "question": "Nasır tekrar oluşur mu?",
+        "answer": "Eğer aynı baskı, sürtünme ya da yanlış ayakkabı alışkanlığı devam ederse nasır tekrar oluşabilir. Bu nedenle koruyucu önlemler alınması gerekir."
+      },
+      {
+        "question": "Nasır temizleme işlemi hangi sıklıkla yapılmalıdır?",
+        "answer": "Genellikle 4-6 haftada bir önerilir. Ancak nasır yapısına ve kişisel ayak bakım alışkanlıklarına göre bu süre değişebilir."
+      },
+      {
+        "question": "Nasır temizleme işlemi hijyenik midir?",
+        "answer": "Evet. İşlem steril ekipmanlarla, hijyen kurallarına uygun şekilde gerçekleştirilir. Her işlem kişiye özel ve güvenli koşullarda yapılır."
+      }
     ]
   }
-
-]
-}
 ]
