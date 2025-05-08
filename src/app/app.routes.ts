@@ -50,6 +50,10 @@ export const routes: Routes = [
   {
     path: 'hizmetler/evde-hizmet',
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
+  },
+  {
+    path: 'hizmetler/refleksoloji-masaji',
+    loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
   }
   
 ];

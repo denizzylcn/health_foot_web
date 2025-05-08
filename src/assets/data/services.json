@@ -274,6 +274,49 @@
         "answer": "Evde ayak bakımı hizmeti talep etmek için sitemiz üzerinden randevu alabilir veya doğrudan bizimle iletişime geçebilirsiniz."
       }
     ]
+  },
+  {
+    "id": "refleksoloji-masaji",
+    "title": "Refleksoloji Masajı",
+    "coverImage": "assets/images/refloksoloji.jpg",
+    "description": "Refleksoloji, vücuttaki belirli noktalara uygulanan baskılarla sağlığı desteklemeyi amaçlayan eski bir alternatif terapi yöntemidir. Bu uygulama, ayak, el ve kulaklarda bulunan refleks noktalarına yapılan baskılarla, vücudun diğer bölgelerinde rahatlama ve iyileşme sağlamayı hedefler.",
+    "details": [
+      {
+        "title": "Refleksolojinin Temel Prensibi",
+        "text": "Refleksoloji, vücudun belirli bölgelerinin el ve ayaklardaki refleks noktalarıyla bağlantılı olduğu teorisine dayanır. Bu noktalar, sinir sistemi aracılığıyla organlara ve vücut sistemlerine bağlanır. Bu nedenle, doğru noktalara uygulanan baskı, ilgili organın fonksiyonlarını olumlu yönde etkileyebilir."
+      },
+      {
+        "title": "Refleksolojinin Faydaları",
+        "text": "Refleksoloji uygulamasının birçok potansiyel faydası bulunmaktadır:\n\n- Stres ve Anksiyetenin Azaltılması: Refleksoloji, sinir sistemini sakinleştirerek stres ve kaygıyı azaltabilir.\n- Ağrı Yönetimi: Baş ağrısı, sırt ağrısı ve kas gerginliği gibi durumlarda ağrıyı hafifletmeye yardımcı olabilir.\n- Uyku Kalitesinin Artırılması: Rahatlatıcı etkisi sayesinde uyku düzenini iyileştirebilir.\n- Sindirim Sistemi Desteği: Sindirim organlarına karşılık gelen refleks noktalarının uyarılmasıyla sindirim fonksiyonları desteklenebilir.\n- Bağışıklık Sisteminin Güçlendirilmesi: Dolaşımı artırarak ve stresi azaltarak bağışıklık sistemini destekleyebilir."
+      },
+      {
+        "title": "Refleksoloji Masajı Nasıl Uygulanır?",
+        "text": "Refleksoloji masajı genellikle şu adımlarla uygulanır:\n\n- 1.Hazırlık: Danışan rahat bir pozisyona alınır ve ayakları temizlenir.\n- 2.Refleks Noktalarının Belirlenmesi: Uygulayıcı, ayak tabanındaki refleks noktalarını belirler.\n- 3.Masaj Tekniklerinin Uygulanması: Parmaklarla veya özel masaj araçlarıyla belirli noktalara baskı uygulanır.\n- 4.Sıralı İlerleme: Ayak tabanındaki refleks noktaları sistematik olarak çalışılır.\n- 5.Rahatlama: Masaj sırasında uygulanan baskı, vücudun belirli bölgelerine olan kan dolaşımını artırabilir ve genel bir rahatlama sağlayabilir."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Refleksoloji masajı nedir?",
+        "answer": "Refleksoloji, ayak, el ve kulaklardaki belirli refleks noktalarına uygulanan baskılarla vücuttaki rahatlamayı sağlayan bir terapi yöntemidir. Bu terapi, vücut organlarına bağlı noktalarla etkileşim kurarak sağlığı destekler."
+      },
+      {
+        "question": "Refleksoloji masajının faydaları nelerdir?",
+        "answer": "Refleksoloji, stres ve anksiyetenin azaltılması, ağrı yönetimi, uyku kalitesinin artırılması, sindirim sisteminin desteklenmesi ve bağışıklık sisteminin güçlendirilmesi gibi faydalar sağlar."
+      },
+      {
+        "question": "Refleksoloji masajı nasıl yapılır?",
+        "answer": "İlk olarak, ayaklar temizlenir ve rahat bir pozisyonda tutulur. Ardından, refleks noktalarına özel baskılar uygulanır ve masaj teknikleriyle vücuttaki kan dolaşımı artırılır."
+      },
+      {
+        "question": "Refleksoloji ağrılı mıdır?",
+        "answer": "Hayır, refleksoloji masajı ağrısızdır. Uygulama sırasında yalnızca rahatlatıcı baskılar yapılır ve herhangi bir acı hissedilmez."
+      },
+      {
+        "question": "Evde refleksoloji yapabilir miyim?",
+        "answer": "Evde bazı basit refleksoloji tekniklerini uygulamak mümkün olsa da, uzman kişilerin yaptığı masaj daha etkili ve güvenli olacaktır. Özellikle belirli refleks noktalarına doğru baskıyı uygulamak için uzman desteği almak önerilir."
+      }
+    ]
   }
+  
   
 ]
