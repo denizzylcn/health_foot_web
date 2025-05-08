@@ -54,6 +54,18 @@ export const routes: Routes = [
   {
     path: 'hizmetler/refleksoloji-masaji',
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
+  },
+  {
+    path: 'hizmetler/tirnak-mantari-tedavisi',
+    loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
+  },
+  {
+    path: 'hizmetler/geriatrik-ayak-bakimi',
+    loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
+  },
+  {
+    path: 'hizmetler/topuk-catlagi-temizleme',
+    loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
   }
   
 ];

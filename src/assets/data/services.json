@@ -316,7 +316,149 @@
         "answer": "Evde bazı basit refleksoloji tekniklerini uygulamak mümkün olsa da, uzman kişilerin yaptığı masaj daha etkili ve güvenli olacaktır. Özellikle belirli refleks noktalarına doğru baskıyı uygulamak için uzman desteği almak önerilir."
       }
     ]
-  }
+  },
+  {
+    "id": "tirnak-mantari-tedavisi",
+    "title": "Tırnak Mantarı Bakımı",
+    "coverImage": "assets/images/travmatik.jpg",
+    "description": "Tırnak mantarı, hem estetik hem de sağlık açısından ciddiye alınması gereken yaygın bir tırnak problemidir. Tedavi edilmediğinde tırnak yapısını bozabilir, çevre dokulara yayılabilir ve zamanla kalıcı deformasyonlara neden olabilir. Bu nedenle, mantarlı tırnaklara yönelik bakım süreci titizlikle planlanmalı, profesyonel yöntemlerle desteklenmelidir.",
+    "details": [
+      {
+        "title": "Tırnak Mantarı Bakımı Neden Önemlidir?",
+        "text": "🧼 Mekanik Temizlikle Derinlemesine Müdahale\nMantarın tuttuğu tırnak tabakası özel cihazlarla temizlenir. Bu işlem, mantarın yayılmasını önlerken tedaviye zemin hazırlar. Ağrısız ve steril şekilde gerçekleştirilen mekanik temizlik sayesinde tırnak daha sağlıklı uzamaya başlar.\n\n🌿 Estetik Görünümün Geri Kazanılması\nSarı, kalın ve şekli bozulmuş tırnaklar profesyonel temizlik ve bakım sonrası daha düzgün, temiz ve doğal bir görünüme kavuşur. Böylece kişi hem görsel hem psikolojik olarak rahatlar.\n\n🚫 Baskı ve Ağrının Önlenmesi\nKalınlaşmış tırnaklar ayakkabı içinde baskıya ve yürüyüşte rahatsızlığa neden olabilir. Temizlik ve tırnak yüzeyinin düzeltilmesi, bu baskının ortadan kalkmasına yardımcı olur.\n\n🧴 Tedavi Etkisini Artırır\nTemizlenmiş tırnak yüzeyi sayesinde kullanılan topikal veya sistemik ilaçlar çok daha etkili hale gelir. Bu, tedavi süresini kısaltabilir ve başarı oranını artırır.\n\n🛡️ Çevre Dokuların Korunması\nEnfeksiyonun yayılması sadece tırnağa değil, çevredeki cilt dokularına da zarar verebilir. Düzenli bakım, bu riski minimuma indirir."
+      },
+      {
+        "title": "Lazer Destekli Mantar Tedavisi ile Daha Güçlü Sonuçlar",
+        "text": "🛑 Lazer teknolojisi, tırnak mantarı tedavisinde giderek daha fazla tercih edilen, ilaçsız ve etkili bir yöntemdir.\n📌 Uygulanan özel dalga boyundaki lazer ışığı, mantarların hücre duvarına nüfuz ederek onları hedef alır ve yok eder.\n\n✅ Ağrısızdır, acı hissedilmez.\n✅ Kimyasal ilaç kullanılmaz.\n✅ Tırnak yapısına zarar vermez.\n✅ Seanslar kısadır ve iyileşme sürecini hızlandırır."
+      },
+      {
+        "title": "Uygulama Süreci Nasıldır?",
+        "text": "Analiz: Tırnak mantarının yayılımı ve cilt durumu uzman tarafından değerlendirilir.\n\nMekanik Temizlik: Mantar tutmuş doku ağrısız biçimde temizlenir.\n\nLazer Atışı: Enfeksiyon bölgesine özel lazer ışınları uygulanır.\n\nBakım Ürünleri: Tırnak yüzeyi desteklenir, nem ve koruma sağlanır.\n\nEvde Bakım Önerileri: Sürecin başarıyla sürmesi için kişiye özel bakım rutini belirlenir."
+      },
+      {
+        "title": "Tırnak Mantarı Bakımının Faydaları",
+        "text": "✔ Doğal ve sağlıklı tırnak görünümü\n✔ İlaç tedavisinde artan başarı\n✔ Yayılmanın ve enfeksiyonun durdurulması\n✔ Lazer desteğiyle daha hızlı çözüm\n✔ Günlük yaşam kalitesinde artış"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Tırnak mantarı nedir ve nasıl oluşur?",
+        "answer": "Tırnak mantarı, genellikle dermatofit adı verilen mantar türlerinin tırnak yüzeyine yerleşmesiyle oluşur. Nemli ortamlar, dar ayakkabılar, ortak kullanılan duş alanları ve hijyen eksikliği bu oluşumu tetikler."
+      },
+      {
+        "question": "Tırnak mantarı kendi kendine geçer mi?",
+        "answer": "Hayır. Tırnak mantarı zamanla yayılır, tırnağı kalınlaştırır ve şekil bozukluğuna neden olur. Profesyonel müdahale olmadan kendiliğinden geçmesi oldukça zordur."
+      },
+      {
+        "question": "Tırnak mantarı bakımında lazer nasıl çalışır?",
+        "answer": "Lazer cihazı, tırnak altındaki mantar hücrelerine özel dalga boyunda ışık gönderir. Bu ışık, mantarın hücre yapısını bozarak etkisiz hale getirir. İşlem ağrısızdır ve ilaçsız şekilde etki sağlar."
+      },
+      {
+        "question": "Lazer tedavisi güvenli mi?",
+        "answer": "Evet. Lazer tedavisi FDA onaylı cihazlarla yapıldığında tamamen güvenli ve yan etkisiz bir yöntemdir. Tırnak veya çevre dokulara zarar vermez."
+      },
+      {
+        "question": "Tırnak mantarı için kaç lazer seansı gerekir?",
+        "answer": "Kişinin mantar yoğunluğuna göre değişmekle birlikte genellikle 4 ila 6 seans önerilir. Bu süreçte düzenli mekanik temizlikle tedavinin etkisi artırılır."
+      },
+      {
+        "question": "Mekanik temizlik neden önemlidir?",
+        "answer": "Mekanik temizlik, mantarın tutunduğu kalın tırnak tabakasının uzaklaştırılması işlemidir. Bu sayede hem görüntü iyileşir hem de uygulanan tedaviler (lazer veya ilaç) çok daha etkili hale gelir."
+      },
+      {
+        "question": "İşlem sırasında acı hissedilir mi?",
+        "answer": "Hayır. Hem mekanik temizlik hem de lazer uygulaması ağrısızdır. Tırnak yatağına zarar verilmez, işlem sırasında yalnızca hafif bir ısı hissedilebilir."
+      },
+      {
+        "question": "Tedavi sonrasında nelere dikkat edilmelidir?",
+        "answer": "Tırnaklar kuru tutulmalı, hijyene özen gösterilmeli ve önerilen bakım ürünleri düzenli kullanılmalıdır. Ortak alanlarda terliksiz dolaşılmamalı, tırnaklar düzenli olarak kontrol edilmelidir."
+      },
+      {
+        "question": "Tırnak mantarı tekrar eder mi?",
+        "answer": "Uygun bakım yapılmazsa ve tetikleyici etkenler devam ederse tekrar edebilir. Ancak doğru tedavi, hijyen alışkanlıkları ve düzenli bakım ile bu risk minimuma indirilir."
+      },
+      {
+        "question": "Lazer dışında ilaç kullanımı gerekir mi?",
+        "answer": "Lazer tedavisi birçok durumda tek başına yeterli olabilir. Ancak bazı vakalarda topikal veya oral ilaçlar destek olarak kullanılabilir. Bu kararı uzman belirler."
+      }
+    ]
+  },
+  {
+    "id": "geriatrik-ayak-bakimi",
+    "title": "Geriatrik Ayak Bakımı",
+    "coverImage": "assets/images/yaslı.jpg",
+    "description": "Yaşlanma süreciyle birlikte vücudun pek çok bölgesinde olduğu gibi ayaklarda da fizyolojik değişiklikler meydana gelir. Cilt incelir, nem kaybı artar, tırnaklar kalınlaşır ve esneklik azalır. Bununla birlikte diyabet, damar tıkanıklığı, eklem hastalıkları ve nörolojik sorunlar gibi yaşa bağlı hastalıklar da ayak sağlığını doğrudan etkileyebilir. İşte tam da bu yüzden, geriatrik ayak bakımı, yalnızca estetik değil, aynı zamanda yaşlı bireylerin yaşam kalitesini artırmak adına hayati bir önem taşır.",
+    "details": [
+        {
+            "title": "Neden Geriatrik Ayak Bakımı Gereklidir?",
+            "text": "Dolaşım Problemlerine Karşı Önlem: Yaşlı bireylerde kan dolaşımı yavaşladığı için ayaklarda morarma, soğukluk, iyileşmeyen yaralar ve his kaybı görülebilir. Düzenli ayak bakımı bu durumları önceden fark etmeye yardımcı olur.\n\nCilt Kuruluğu ve Çatlakların Giderilmesi: Nemini kaybeden yaşlı cilt, çatlamaya ve enfeksiyona açıktır. Medikal nemlendirme ve cilt bariyeri desteği ile ayak sağlığı korunur.\n\nTırnak Problemlerinin Önlenmesi: Kalınlaşmış, batık veya renk değiştirmiş tırnaklar düzenli olarak törpülenip şekillendirilerek konfor sağlanır ve enfeksiyon riski azaltılır.\n\nNasır ve Bası Noktalarının Kontrolü: Yanlış basma ve ayakkabı kullanımı sonucu oluşan nasır, sertleşmiş deri ve topuk çatlakları uzmanlarca acısız biçimde temizlenir.\n\nYara ve Mantar Takibi: Diyabetli yaşlı bireylerde görülebilecek yaralar, mantarlar ve tırnak enfeksiyonları erken teşhis edilerek ilerlemeden önlenebilir."
+        },
+        {
+            "title": "Nasıl Bir Hizmet Sunulur?",
+            "text": "Geriatrik ayak bakımı, yaşlı bireyin genel sağlık durumu, var olan kronik hastalıkları ve mobilite düzeyi göz önünde bulundurularak tamamen kişiye özel planlanır:\n✔ Ayak ve tırnak analizi\n✔ Steril ortamda tırnak kesimi, törpüleme, kalınlaşmış tırnağın inceltilmesi\n✔ Nasır temizliği ve topuk bakımı\n✔ Cilt nemlendirme, koruyucu bariyer uygulamaları\n✔ Basınç analizi ve doğru ayakkabı tavsiyesi\n✔ Ayak hijyeni eğitimi ve evde bakım önerileri\nİşlem sırasında tamamen ağrısız ve konforlu bir deneyim sunulur. Gerekli durumlarda evde bakım hizmetiyle de desteklenebilir."
+        },
+        {
+            "title": "Geriatrik Ayak Bakımının Faydaları",
+            "text": "✔ Günlük yaşamda konfor ve ağrısız hareket\n✔ Düşme riskinin azaltılması\n✔ Enfeksiyon ve yara risklerinin önlenmesi\n✔ Ayak deformasyonlarının kontrol altına alınması\n✔ Psikolojik olarak güven ve rahatlık hissi\n\nUnutmayın; sağlıklı ayaklar, sağlıklı bir yaşamın temelidir. Yaşlı bireylerin bağımsızlıklarını koruyabilmeleri, günlük yaşam aktivitelerini sürdürebilmeleri ve güvenle yürüyebilmeleri için düzenli geriatrik ayak bakımı vazgeçilmezdir."
+        }
+    ],
+    "faq": [
+        {
+            "question": "Yaşlı bireyler ayak bakımını ne sıklıkla yaptırmalıdır?",
+            "answer": "Genel olarak 4 ila 6 haftada bir ayak bakımı önerilir. Ancak kişinin tırnak yapısı, diyabet veya dolaşım problemleri gibi ek durumları varsa bu süre daha sık aralıklarla planlanabilir."
+        },
+        {
+            "question": "Geriatrik ayak bakımı ağrılı bir işlem midir?",
+            "answer": "Hayır, işlem tamamen konforlu ve ağrısızdır. Tırnak kesimi, nasır temizliği ve cilt bakımı steril ve hassas şekilde uygulanır. Yaşlı bireyin rahatlığı her zaman ön planda tutulur."
+        },
+        {
+            "question": "Evde ayak bakımı hizmeti alabilir miyiz?",
+            "answer": "Evet. Hareket kısıtlılığı yaşayan yaşlı bireyler için evde profesyonel ayak bakımı hizmeti sunulabilir. Aynı steril şartlar ev ortamında sağlanarak güvenli ve etkili bir bakım yapılır."
+        }
+    ]
+},
+{
+  "id": "topuk-catlagi-temizleme",
+  "title": "Çatlak Topuk Bakımı",
+  "coverImage": "assets/images/catlak.jpg",
+  "description": "Topuklarda oluşan çatlaklar, yalnızca estetik bir sorun değil; aynı zamanda ayak sağlığını tehdit eden ciddi bir durumdur. Derinin sertleşmesi ve kurumasıyla oluşan bu çatlaklar, zamanla derinleşerek yürürken ağrıya neden olabilir, hatta enfeksiyonlara kapı aralayabilir. Özellikle diyabet gibi kronik rahatsızlığı olan bireylerde bu durum, daha dikkatle ele alınmalıdır. Bu nedenle çatlak topukların düzenli olarak, uzman kişiler tarafından profesyonel yöntemlerle bakıma alınması büyük...",
+  "details": [
+      {
+          "title": "Neden Çatlak Topuk Bakımı Gereklidir?",
+          "text": "🦶 Ağrı ve Rahatsızlığın Giderilmesi\nÇatlak topuklar yürüyüş sırasında ağrıya, bası hissine ve hatta hareket kısıtlılığına yol açabilir. Düzenli bakım sayesinde cilt yüzeyindeki sertleşmiş dokular giderilir, daha yumuşak ve konforlu bir ayak tabanı sağlanır.\n\n🛡️ Enfeksiyon Riskinin Azaltılması\nÇatlamış deri, bakteri ve mantarlar için uygun bir ortam oluşturabilir. Temizlenmeyen derin çatlaklar, enfeksiyonlara ve cilt altı dokularda iltihaplanmalara sebep olabilir. Bu riski önlemenin yolu profesyonel temizlik ve koruyucu bakımdan geçer.\n\n✨ Estetik Görünümün Kazandırılması\nÖzellikle yaz aylarında açık ayakkabı giyildiğinde, topukların görünümü özgüveni etkileyebilir. Pürüzsüz ve sağlıklı görünüme kavuşmuş bir topuk, hem estetik hem psikolojik anlamda rahatlık sağlar.\n\n💪 Ayak Sağlığının Desteklenmesi\nAyaklarımız, gün boyunca vücut yükünü taşır. Çatlak topuklara yönelik bakım, yalnızca topukları değil, genel ayak sağlığını destekler. Daha sağlıklı ayaklar, daha aktif bir yaşam tarzının kapısını aralar."
+      },
+      {
+          "title": "Nasıl Uyguluyoruz?",
+          "text": "🔍 Ön Değerlendirme: Topuklardaki cilt kalınlaşması, çatlak derinliği ve genel ayak yapısı detaylı şekilde incelenir. Her bireyin durumu benzersiz olduğu için bakım da buna göre şekillendirilir.\n\n🛠️ Profesyonel Temizlik: Özel cihazlar (kuru vakumlu sistemler) ve frezelerle kalınlaşmış deri dikkatlice inceltilir. Derin çatlaklarda gerektiğinde bisturi desteğiyle kontrollü temizlik yapılır. Amaç, hem sağlıklı hem estetik bir görünüm sağlamaktır.\n\n🌿 Bakım Uygulaması: Temizlik sonrası çatlak bölgelere özel olarak geliştirilen yoğun nemlendirici kremler (örneğin Callus & Cracked Heel Balm) uygulanır. Bu kremler, cildin yenilenme sürecini hızlandırır ve onarım sürecini destekler.\n\n📋 Kişiye Özel Takip ve Öneri: Bakım sonrası her bireye özel yaşam tarzı tavsiyeleri, uygun ürün kullanımı ve yeniden oluşumu engelleyici öneriler sunulur. Süreç, düzenli takiplerle desteklenir."
+      },
+      {
+          "title": "Kimler Bu Bakımı Yaptırmalı?",
+          "text": "Topuklarında çatlak, kuruluk ve kalınlaşma yaşayanlar\n\nUzun süre ayakta kalan meslek grupları\n\nDiyabet gibi cilt hassasiyeti oluşturan rahatsızlıkları olan bireyler\n\nEstetik olarak topuklarında pürüzsüzlük arayan herkes"
+      }
+  ],
+  "faq": [
+      {
+          "question": "Topuk çatlaklarının sebebi sadece kuru cilt mi?",
+          "answer": "Hayır. Cilt kuruluğu önemli bir etken olsa da topuk çatlakları genellikle uzun süre ayakta kalmak, fazla kilo, yanlış ayakkabı kullanımı, hormonal değişiklikler, yaşlanma ve diyabet gibi sistemik rahatsızlıklar nedeniyle de oluşabilir."
+      },
+      {
+          "question": "Sadece nemlendirici sürmek yeterli mi?",
+          "answer": "Hayır. Nemlendirici, yüzeydeki kuruluğu geçici olarak rahatlatabilir ama çatlamış, kalınlaşmış deri tabakalarının alttan kontrollü bir şekilde temizlenmesi gerekir. Bu temizlik yapılmadan sadece krem kullanmak çatlakları iyileştirmez, hatta enfeksiyon riskini artırabilir."
+      },
+      {
+          "question": "Çatlak topuklar enfeksiyona yol açabilir mi?",
+          "answer": "Evet. Derin çatlaklar, mikroorganizmaların cilt altına girmesi için bir kapı haline gelebilir. Bu durum özellikle diyabet hastaları için ciddi enfeksiyon riskleri taşır. Profesyonel bakım, bu riski ortadan kaldırmak için çok önemlidir."
+      },
+      {
+          "question": "Ayaklarım çok hassas, bu bakım acı verir mi?",
+          "answer": "Kesinlikle hayır. Çatlak topuk bakımı, steril ve hassas cihazlarla tamamen ağrısız bir şekilde yapılır. Uygulama sırasında yalnızca nazik bir temizlik ve rahatlatıcı bakım hissedilir."
+      },
+      {
+          "question": "Tek seansta tamamen iyileşme olur mu?",
+          "answer": "İyileşmenin seviyesi çatlakların derinliğine ve kişinin yaşam tarzına bağlıdır. Bazı kişilerde tek seansta belirgin düzelme sağlanırken, daha ileri vakalarda birkaç seans ve evde düzenli bakım önerilir."
+      }
+  ]
+}
   
   
 ]
