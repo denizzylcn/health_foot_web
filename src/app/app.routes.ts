@@ -37,6 +37,19 @@ export const routes: Routes = [
   {
     path: 'hizmetler/hamile-ayak-bakimi',
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
+  },
+  {
+    path: 'hizmetler/nasir-temizleme',
+    loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
+  },
+  
+  {
+    path: 'hizmetler/kalin-tirnak-bakimi',
+    loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
+  },
+  {
+    path: 'hizmetler/evde-hizmet',
+    loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
   }
   
 ];

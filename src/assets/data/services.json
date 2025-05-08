@@ -186,5 +186,94 @@
         "answer": "Evet. İşlem steril ekipmanlarla, hijyen kurallarına uygun şekilde gerçekleştirilir. Her işlem kişiye özel ve güvenli koşullarda yapılır."
       }
     ]
+  },
+  {
+    "id": "kalin-tirnak-bakimi",
+    "title": "Kalın ve Deforme Tırnak Bakımı",
+    "coverImage": "assets/images/kalin-deforme-tirnak-bakimi.jpg",
+    "description": "Kalınlaşmış, şekli bozulmuş ya da renk değişimine uğramış tırnaklar; estetik açıdan rahatsız edici olmasının yanı sıra, günlük yaşamda konforu da önemli ölçüde etkileyen bir sorundur. Bu tür tırnak problemleri yalnızca dış görünümle sınırlı kalmaz, aynı zamanda ayakkabı giyerken baskı hissi, yürüyüşte ağrı ve zamanla gelişebilecek enfeksiyonlara zemin hazırlayabilir. Bu nedenle, kalın ve deforme tırnakların uzmanlar tarafından düzenli olarak bakıma alınması, hem tırnak sağlığının korunması hem de genel yaşam kalitesinin artırılması açısından oldukça kritiktir.",
+    "details": [
+      {
+        "title": "Kalın ve Deforme Tırnak Bakımı Neden Gereklidir?",
+        "text": "🔸 Ağrı ve Rahatsızlığın Giderilmesi\nKalınlaşmış tırnaklar, ayak parmaklarında basınç oluşturabilir ve bu durum özellikle ayakkabı içinde hissedilen ağrılara neden olabilir. Uygulanan profesyonel bakım sayesinde bu baskı ve rahatsızlık hissi minimuma indirilir.\n\n🔸 Estetik Görünümün Yeniden Kazandırılması\nBozulmuş şekil, renk ve kalınlık gibi estetik problemler, kişiyi hem psikolojik hem sosyal açıdan olumsuz etkileyebilir. Uygun bakım sonrasında tırnaklar daha temiz, düzgün ve sağlıklı bir görünüm kazanır.\n\n🔸 Enfeksiyon Riskinin Azaltılması\nKalın ve deforme tırnaklar, mantar başta olmak üzere birçok enfeksiyona açık hale gelebilir. Düzenli temizlik ve uygun uygulamalarla tırnak yüzeyindeki birikintiler giderilir, hijyen sağlanır ve enfeksiyon riski azaltılır.\n\n🔸 Tırnak Yapısının Korunması\nErken dönemde yapılan müdahaleler, tırnağın doğal yapısını destekler ve deformasyonun ilerlemesini önler. Böylece sağlıklı tırnak uzaması mümkün hale gelir."
+      },
+      {
+        "title": "Uygulanan Yöntemler ve Süreç",
+        "text": "Kalın ve deforme tırnak bakımı, steril ortamda ve kişiye özel planlanan işlemlerle gerçekleştirilir. Bakım sırasında genellikle:\n\n- Tırnağın mekanik olarak inceltilmesi ve temizlenmesi\n- Tırnak yatağına özel bakım ürünleri uygulanması\n- Gerektiğinde BS bant sistemi ile tırnağın doğru yönde uzamasının desteklenmesi\n- Podo-taping gibi bantlama teknikleriyle tırnak şeklinin yeniden yapılandırılması uygulanır.\n\nHer işlem, tırnak yapısı detaylı şekilde incelendikten sonra güvenli ve konforlu bir biçimde uygulanır. İşlem sonrası kişiye özel önerilerle bakımın evde de sürdürülmesi sağlanır."
+      },
+      {
+        "title": "Kimin İçin Uygundur?",
+        "text": "🔹 Tırnak kalınlaşması yaşayan bireyler\n🔹 Travmaya bağlı tırnak deformasyonu gelişenler\n🔹 Tırnak mantarı geçmişi olanlar\n🔹 Sıkı ayakkabı kullanımına bağlı şekil bozukluğu yaşayanlar\n🔹 Estetik olarak tırnaklarından rahatsızlık duyan herkes"
+      }
+    ],
+    "faq": [
+      {
+        "question": "Kalın ve deforme tırnak nedir?",
+        "answer": "Kalın ve deforme tırnak, genellikle travma, mantar enfeksiyonu, genetik yatkınlık veya yaşa bağlı faktörler nedeniyle tırnağın doğal yapısının bozulması sonucu oluşan; sertleşmiş, kalınlaşmış ve şekilsiz hale gelmiş tırnaktır."
+      },
+      {
+        "question": "Kalınlaşmış ve deforme tırnakların nedenleri nelerdir?",
+        "answer": "Bu durum; dar ayakkabı kullanımı, tırnak travmaları, mantar enfeksiyonları, dolaşım bozuklukları, genetik yatkınlık, yaşlanma ve diyabet gibi kronik hastalıklar nedeniyle oluşabilir."
+      },
+      {
+        "question": "Kalın ve deforme tırnak bakımı nasıl yapılır?",
+        "answer": "İlk olarak tırnak yapısı detaylıca analiz edilir. Ardından özel cihazlarla kalın doku inceltilir, tırnak şekli düzeltilir ve bakım ürünleriyle desteklenir. Gerekirse BS bant ya da podo-taping gibi teknikler de uygulanabilir."
+      },
+      {
+        "question": "Bu bakım ağrılı mıdır?",
+        "answer": "Hayır. Uygulama sırasında canlı dokulara müdahale edilmediği için ağrı hissedilmez. Tamamen konforlu, güvenli ve steril bir ortamda gerçekleştirilir."
+      },
+      {
+        "question": "Evde kalın ve deforme tırnak bakımı yapılabilir mi?",
+        "answer": "Evde yapılacak müdahaleler riskli olabilir. Yanlış kesim ya da uygun olmayan ürün kullanımı enfeksiyona ve tırnak yapısının daha da bozulmasına yol açabilir. Bu nedenle uzman bakımı önerilir."
+      },
+      {
+        "question": "Kalınlaşmış tırnaklar tedavi edilebilir mi?",
+        "answer": "Evet. Doğru yöntemlerle yapılan düzenli bakım sayesinde tırnak dokusu desteklenir ve yeniden doğal haline yaklaşması sağlanabilir. Kalıcı hasar yoksa iyileşme süreci oldukça başarılıdır."
+      },
+      {
+        "question": "Kalın ve deforme tırnaklar hangi sıklıkla bakım gerektirir?",
+        "answer": "Genellikle 4 ila 6 haftada bir bakım önerilir. Ancak tırnağın durumuna göre bu süre kısaltılabilir veya uzatılabilir. Düzenli takip oldukça önemlidir."
+      },
+      {
+        "question": "Kalın tırnaklar tekrar oluşur mu?",
+        "answer": "Eğer altta yatan nedenler devam ederse (örneğin dar ayakkabı, mantar enfeksiyonu gibi), kalınlaşma tekrarlayabilir. Bu nedenle bakımın yanında koruyucu önlemler de alınmalıdır."
+      }
+    ]
+  },
+  {
+    "id": "evde-hizmet",
+    "title": "Evde Ayak Bakımı",
+    "coverImage": "assets/images/ev.jpg",
+    "description": "Evde ayak bakımı, ayak sağlığınızı korumanın yanı sıra, özel ihtiyaçlarınızı ve günlük yaşamınıza uyum sağlayacak en rahat bakım türüdür. Ayaklarınız, vücudun tüm yükünü taşıyan ve büyük bir özen gerektiren bölgelerimizdir. Ancak çoğu zaman ayak sağlığına yeterince dikkat edilmez. Yoğun yaşam temposu, fiziksel engeller veya basit bir zaman eksikliği nedeniyle çoğu kişi ayak bakımını erteleyebilir. İşte bu yüzden, Evde Ayak Bakımı hizmeti, her birey için konforlu, pratik ve profesyonel bakım sunar.",
+    "details": [
+      {
+        "title": "Evde Hizmetin Faydaları",
+        "text": "Evde ayak bakımı hizmeti, ayak sağlığınızı konforlu bir şekilde korumanızı sağlar. Evinizdeki rahatlıkta bakım alabilir, zaman kaybını ortadan kaldırabilirsiniz. Uzman kişiler tarafından, hijyenik ve güvenli koşullarda bakım yapılır."
+      },
+      {
+        "title": "Evde Ayak Bakımı Neden Önemlidir?",
+        "text": "Ayak sağlığı vücudun genel sağlığını etkileyen temel unsurlardan biridir. Evde bakım, hem konforlu hem de etkili bir çözüm sunar. Profesyonel uzmanlar tarafından uygulanan bakım sayesinde, ayak sağlığınızı güvenli ve hijyenik bir ortamda koruyabilirsiniz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Evde ayak bakımı ne kadar sürer?",
+        "answer": "Evde ayak bakımı işlemleri, uygulanan bakıma göre değişmekle birlikte genellikle 45 dakika ile 1 saat arasında sürmektedir."
+      },
+      {
+        "question": "Evde ayak bakımı güvenli midir?",
+        "answer": "Evet, evde bakım işlemleri son derece güvenlidir. Uzman kişiler tarafından steril koşullarda yapılan işlemler, güvenli ve hijyenik bir şekilde uygulanır."
+      },
+      {
+        "question": "Evde ayak bakımı hangi hizmetleri kapsar?",
+        "answer": "Evde ayak bakımı; nasır temizliği, batık tırnak düzenleme, tırnak bakımı, topuk çatlakları, tırnak mantarı tedavisi, masaj gibi bir dizi hizmeti kapsar."
+      },
+      {
+        "question": "Evde bakım hizmetini nasıl talep edebilirim?",
+        "answer": "Evde ayak bakımı hizmeti talep etmek için sitemiz üzerinden randevu alabilir veya doğrudan bizimle iletişime geçebilirsiniz."
+      }
+    ]
   }
+  
 ]
