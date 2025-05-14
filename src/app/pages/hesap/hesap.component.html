@@ -1,0 +1,21 @@
+<div class="hesap-wrapper">
+  <h2>Benim Randevularım</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Tarih</th>
+        <th>Saat</th>
+        <th>Açıklama</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let r of randevular">
+        <td>{{ r.tarih | date: 'shortDate' }}</td>
+        <td>{{ r.saat }}</td>
+        <td>{{ r.aciklama }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

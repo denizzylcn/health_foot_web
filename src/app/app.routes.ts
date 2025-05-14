@@ -67,7 +67,19 @@ export const routes: Routes = [
   path: 'randevu',
   loadComponent: () =>
     import('./pages/randevu/randevu.component').then(m => m.RandevuComponent)
+},
+{
+  path: 'randevular',
+  loadComponent: () =>
+    import('./pages/randevu-list/randevu-list.component').then(m => m.RandevuListComponent)
+},
+{
+  path: 'hesabim',
+  loadComponent: () =>
+    import('./pages/hesap/hesap.component').then(m => m.HesapComponent),
 }
+
+
 
   
 ];

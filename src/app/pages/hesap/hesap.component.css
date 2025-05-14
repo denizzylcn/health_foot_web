@@ -1,0 +1,32 @@
+.hesap-wrapper {
+  max-width: 800px;
+  margin: 2rem auto;
+  background-color: #f8f4ff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #4c2885;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #e4d7f5;
+  color: #4c2885;
+  font-weight: bold;
+}

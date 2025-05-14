@@ -13,7 +13,7 @@ import { RandevuComponent } from './pages/randevu/randevu.component';
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: 'randevu', component: RandevuComponent }
+      
     ])
   ],
   providers: []

@@ -19,25 +19,25 @@ export class RandevuComponent implements OnInit {
   mesaj = '';
   mesajTipi: 'basari' | 'hata' | '' = '';
 
-  constructor(private randevuService: RandevuService) {}
+  constructor(private randevuService: RandevuService) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 
   randevuAl(): void {
 
-     console.log('Form gönderildi:', this.tarih, this.saat);
+    console.log('Form gönderildi:', this.tarih, this.saat);
     const yeniRandevu: Randevu = {
-      Tarih: this.tarih,
-      Saat: this.saat,
-      Aciklama: this.aciklama,
-      KullaniciId: 1 // örnek ID, kullanıcı giriş sistemine göre değiştirilebilir
+      tarih: this.tarih,
+      saat: this.saat,
+      aciklama: this.aciklama,
+      kullaniciId: 1 // örnek ID, kullanıcı giriş sistemine göre değiştirilebilir
       ,
-      Id: 0
+      id: 0
     };
 
     this.randevuService.getRandevular().subscribe(randevular => {
       const cakisan = randevular.find(r =>
-        r.Tarih === yeniRandevu.Tarih && r.Saat === yeniRandevu.Saat
+        r.tarih === yeniRandevu.tarih && r.saat === yeniRandevu.saat
       );
 
       if (cakisan) {
