@@ -1,0 +1,24 @@
+<div class="randevu-wrapper">
+  <h2>Randevu Oluştur</h2>
+
+  <!-- Toast mesajı -->
+  <div *ngIf="mesaj" [ngClass]="mesajTipi === 'basari' ? 'toast-success' : 'toast-error'">
+    {{ mesaj }}
+  </div>
+
+  <form #f="ngForm" (ngSubmit)="randevuAl()" novalidate>
+  <label for="tarih">Tarih:</label>
+  <input type="date" [(ngModel)]="tarih" name="tarih" required>
+
+  <label for="saat">Saat:</label>
+  <input type="time" [(ngModel)]="saat" name="saat" required>
+
+  <label for="aciklama">Açıklama:</label>
+  <input type="text" [(ngModel)]="aciklama" name="aciklama" required>
+
+  <button type="submit">Randevu Oluştur</button>
+</form>
+
+  <!-- Yukarı Çık Butonu -->
+  <button class="scroll-to-top" (click)="scrollToTop()">↑</button>
+</div>

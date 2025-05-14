@@ -25,11 +25,7 @@ export const routes: Routes = [
     path: 'contact',
     loadComponent: () => import('./pages/contact/contact.component').then(m => m.ContactComponent),
   },
-  
-  {
-    path: 'hizmetler/:id',
-    loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
-  },
+ 
   {
     path: 'hizmetler/:id',
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
@@ -66,6 +62,12 @@ export const routes: Routes = [
   {
     path: 'hizmetler/topuk-catlagi-temizleme',
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
-  }
+  },
+  {
+  path: 'randevu',
+  loadComponent: () =>
+    import('./pages/randevu/randevu.component').then(m => m.RandevuComponent)
+}
+
   
 ];

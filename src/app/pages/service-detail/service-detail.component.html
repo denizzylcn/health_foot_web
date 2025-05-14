@@ -1,47 +1,49 @@
 <div *ngIf="service" class="page-wrapper">
 
-    <!-- Üst Başlık ve Görsel Alanı -->
-    <section class="hero">
-      <div class="hero-text">
-        <h1>{{ service.title }}</h1>
-        <p>{{ service.description }}</p>
-        <button class="cta-button">Ücretsiz Randevu</button>
-      </div>
-      <div class="hero-img">
-        <img [src]="service.coverImage" alt="{{ service.title }}">
-      </div>
-    </section>
-  
-    <!-- Detaylı Açıklamalar -->
-    <section class="details">
-      <div *ngFor="let d of service.details" class="detail-block">
-        <h2>{{ d.title }}</h2>
-  
-        <ng-container *ngFor="let paragraph of splitParagraphs(d.text)">
-          <ul *ngIf="isBullet(paragraph)">
-            <li *ngFor="let bullet of getBulletItems(paragraph)">
-              {{ bullet }}
-            </li>
-          </ul>
-          <p *ngIf="!isBullet(paragraph)">
-            {{ paragraph }}
-          </p>
-        </ng-container>
-      </div>
-    </section>
-  
-    <!-- Sık Sorulan Sorular -->
-    <section class="faq-section">
-        <h2>Merak Edilenler</h2>
-  <div *ngFor="let item of service.faq; let i = index" class="faq-item">
-    <div (click)="toggleQuestion(i)" class="faq-question">
-      {{ item.question }}
+  <!-- Üst Başlık ve Görsel Alanı -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>{{ service.title }}</h1>
+      <p>{{ service.description }}</p>
+      <button class="cta-button">Ücretsiz Randevu</button>
     </div>
-    <div *ngIf="expandedQuestionIndex === i" class="faq-answer">
-      {{ item.answer }}
+    <div class="hero-img">
+      <img [src]="service.coverImage" alt="{{ service.title }}">
     </div>
-  </div>
-    </section>
-  
-  </div>
-  
+  </section>
+
+  <!-- Detaylı Açıklamalar -->
+  <section class="details">
+    <div *ngFor="let d of service.details" class="detail-block">
+      <h2>{{ d.title }}</h2>
+
+      <ng-container *ngFor="let paragraph of splitParagraphs(d.text)">
+        <ul *ngIf="isBullet(paragraph)">
+          <li *ngFor="let bullet of getBulletItems(paragraph)">
+            {{ bullet }}
+          </li>
+        </ul>
+        <p *ngIf="!isBullet(paragraph)">
+          {{ paragraph }}
+        </p>
+      </ng-container>
+    </div>
+  </section>
+
+  <!-- Sık Sorulan Sorular -->
+  <section class="faq-section">
+    <h2>Merak Edilenler</h2>
+    <div *ngFor="let item of service.faq; let i = index" class="faq-item">
+      <div (click)="toggleQuestion(i)" class="faq-question">
+        {{ item.question }}
+      </div>
+      <div *ngIf="expandedQuestionIndex === i" class="faq-answer">
+        {{ item.answer }}
+      </div>
+    </div>
+  </section>
+
+  <!-- Yukarı Çık Butonu -->
+  <button class="scroll-to-top" (click)="scrollToTop()">↑</button>
+
+</div>

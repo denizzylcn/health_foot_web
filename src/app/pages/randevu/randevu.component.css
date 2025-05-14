@@ -1,0 +1,95 @@
+.randevu-wrapper {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f4f4f8;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+.toast-success {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.toast-error {
+  background-color: #f44336;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #512da8;
+  font-size: 26px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+form input:focus {
+  border-color: #512da8;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #512da8;
+  color: #fff;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #3d1d91;
+}
+
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #512da8;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+}
+
+.scroll-to-top:hover {
+  opacity: 0.8;
+}
+

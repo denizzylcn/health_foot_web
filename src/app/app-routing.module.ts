@@ -4,6 +4,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/services/services.component';
 import { AppointmentsComponent } from './pages/appointments/appointments.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { RandevuComponent } from './pages/randevu/randevu.component';
 
 
 
@@ -12,12 +13,15 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent }, // Hizmetler sayfası
   { path: 'appointments', component: AppointmentsComponent }, // Randevu alma sayfası
   { path: 'contact', component: ContactComponent },
-  { path: '**', redirectTo: '', pathMatch: 'full' } // Geçersiz URL’lerde ana sayfaya yönlendir
+   { path: 'randevu', component: RandevuComponent },
+  { path: '**', redirectTo: 'randevu', pathMatch: 'full' } // Geçersiz URL’lerde ana sayfaya yönlendir
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+  
+ }
 
