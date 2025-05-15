@@ -5,14 +5,13 @@ import { LoginComponent } from './pages/auth/login/login.component';
 export const routes: Routes = [
   {
     path: '',
-    loadComponent: () =>
-      import('./pages/home/home.component').then(m => m.HomeComponent)
+    loadComponent: () => import('./pages/home/home.component').then(m => m.HomeComponent)
   },
   {
     path: 'hizmetler/:id',
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
   },
-  
+
   {
     path: 'auth/login',
     loadComponent: () => import('./pages/auth/login/login.component').then(m => m.LoginComponent)
@@ -25,7 +24,7 @@ export const routes: Routes = [
     path: 'contact',
     loadComponent: () => import('./pages/contact/contact.component').then(m => m.ContactComponent),
   },
- 
+
   {
     path: 'hizmetler/:id',
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
@@ -38,7 +37,7 @@ export const routes: Routes = [
     path: 'hizmetler/nasir-temizleme',
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
   },
-  
+
   {
     path: 'hizmetler/kalin-tirnak-bakimi',
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
@@ -64,26 +63,26 @@ export const routes: Routes = [
     loadComponent: () => import('./pages/service-detail/service-detail.component').then(m => m.ServiceDetailComponent),
   },
   {
-  path: 'randevu',
-  loadComponent: () =>
-    import('./pages/randevu/randevu.component').then(m => m.RandevuComponent)
-},
-{
-  path: 'randevular',
-  loadComponent: () =>
-    import('./pages/randevu-list/randevu-list.component').then(m => m.RandevuListComponent)
-},
-{
-  path: 'hesabim',
-  loadComponent: () =>
-    import('./pages/hesap/hesap.component').then(m => m.HesapComponent),
-},
-{
-  path: 'randevu-guncelle/:id',
-  loadComponent: () => import('./pages/randevu-guncelle/randevu-guncelle.component')
-    .then(m => m.RandevuGuncelleComponent)
-}
+    path: 'randevu',
+    loadComponent: () =>
+      import('./pages/randevu/randevu.component').then(m => m.RandevuComponent)
+  },
+  {
+    path: 'randevular',
+    loadComponent: () =>
+      import('./pages/randevu-list/randevu-list.component').then(m => m.RandevuListComponent)
+  },
+  {
+    path: 'hesabim',
+    loadComponent: () =>
+      import('./pages/hesap/hesap.component').then(m => m.HesapComponent),
+  },
+  {
+    path: 'randevu-guncelle/:id',
+    loadComponent: () => import('./pages/randevu-guncelle/randevu-guncelle.component')
+      .then(m => m.RandevuGuncelleComponent)
+  }
 
 
-  
+
 ];

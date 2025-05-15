@@ -2,6 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, tap } from 'rxjs';
 
+
+
+
 @Injectable({
   providedIn: 'root'
 })
@@ -43,20 +46,18 @@ export class AuthService {
   }
 
   // 🔍 Token'dan kullanıcı bilgisi çözümleme
-  getUserInfoFromToken(): { email: string, role: string } | null {
-    const token = this.getToken();
-    if (!token) return null;
-  
-    try {
-      const decoded: any = jwtDecode(token);
-      const email = decoded["email"] || decoded["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"];
-      const role = decoded["role"] || decoded["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
-      return { email, role };
-    } catch (e) {
-      console.error("Token çözümleme hatası:", e);
-      return null;
-    }
+ getUserInfoFromToken() {
+  const token = localStorage.getItem('token');
+  if (!token) return null;
+
+  try {
+    return jwtDecode(token);
+  } catch (error) {
+    console.error('Token çözümleme hatası:', error);
+    return null;
   }
+}
+
   
 }
 function jwtDecode(token: string): any {
