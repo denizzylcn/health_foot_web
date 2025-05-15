@@ -1,5 +1,6 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
@@ -11,18 +12,23 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   styleUrls: ['./service-detail.component.css']
 })
 export class ServiceDetailComponent implements OnInit {
-
   private route = inject(ActivatedRoute);
   private http = inject(HttpClient);
+  private router = inject(Router);
+
 
   serviceId: string | null = null;
   service: any;
-
   expandedQuestionIndex: number | null = null;
 
   ngOnInit(): void {
-    this.serviceId = this.route.snapshot.paramMap.get('id');
+    this.route.paramMap.subscribe(params => {
+      this.serviceId = params.get('id');
+      this.getServiceDetail();
+    });
+  }
 
+  getServiceDetail(): void {
     this.http.get<any[]>('assets/data/services.json').subscribe(data => {
       this.service = data.find(s => s.id === this.serviceId);
       console.log('Servis:', this.service);
@@ -51,4 +57,8 @@ export class ServiceDetailComponent implements OnInit {
       .map(i => i.trim())
       .filter(i => i !== '');
   }
+  goToRandevu(): void {
+  this.router.navigate(['/randevu']);
+}
+
 }

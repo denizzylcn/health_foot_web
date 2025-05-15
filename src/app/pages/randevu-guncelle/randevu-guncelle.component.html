@@ -1,0 +1,24 @@
+
+<!-- randevu-guncelle.component.html -->
+<div class="form-wrapper">
+  <h2>Randevuyu Güncelle</h2>
+
+  <form (ngSubmit)="guncelle()">
+    <label>Tarih:</label>
+    <input type="date" [(ngModel)]="randevu.tarih" name="tarih" required><br>
+
+    <label>Saat:</label>
+    <input type="time" [(ngModel)]="randevu.saat" name="saat" required><br>
+
+    <label>Açıklama:</label>
+    <input type="text" [(ngModel)]="randevu.aciklama" name="aciklama"><br>
+
+    <label>Email:</label>
+    <input type="email" [(ngModel)]="randevu.email" name="email"><br>
+
+    <label>Telefon:</label>
+    <input type="text" [(ngModel)]="randevu.telefon" name="telefon"><br>
+
+    <button type="submit">💾 Kaydet</button>
+  </form>
+</div>

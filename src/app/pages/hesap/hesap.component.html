@@ -7,6 +7,7 @@
         <th>Tarih</th>
         <th>Saat</th>
         <th>Açıklama</th>
+        <th>İşlemler</th>
       </tr>
     </thead>
     <tbody>
@@ -14,8 +15,11 @@
         <td>{{ r.tarih | date: 'shortDate' }}</td>
         <td>{{ r.saat }}</td>
         <td>{{ r.aciklama }}</td>
+        <td>
+          <button class="action-btn update" (click)="editRandevu(r)">✏️ Güncelle</button>
+          <button class="action-btn delete" (click)="deleteRandevu(r.id)">🗑️ Sil</button>
+        </td>
       </tr>
     </tbody>
   </table>
 </div>
-

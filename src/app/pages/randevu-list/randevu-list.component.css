@@ -29,3 +29,43 @@ th {
   background-color: #ede7f6;
   color: #311b92;
 }
+.edit-btn {
+  background-color: #ffc107;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #d32f2f;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}

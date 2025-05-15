@@ -17,6 +17,9 @@ export class RandevuComponent implements OnInit {
   saat = '';
   aciklama = '';
   mesaj = '';
+  email: string = '';
+  telefon: string = '';
+
   mesajTipi: 'basari' | 'hata' | '' = '';
 
   constructor(private randevuService: RandevuService) { }
@@ -26,13 +29,15 @@ export class RandevuComponent implements OnInit {
   randevuAl(): void {
 
     console.log('Form gönderildi:', this.tarih, this.saat);
+
     const yeniRandevu: Randevu = {
+      id: 0,
+      kullaniciId: 1,
       tarih: this.tarih,
       saat: this.saat,
       aciklama: this.aciklama,
-      kullaniciId: 1 // örnek ID, kullanıcı giriş sistemine göre değiştirilebilir
-      ,
-      id: 0
+      email: this.email,
+      telefon: this.telefon
     };
 
     this.randevuService.getRandevular().subscribe(randevular => {

@@ -5,7 +5,8 @@
     <div class="hero-text">
       <h1>{{ service.title }}</h1>
       <p>{{ service.description }}</p>
-      <button class="cta-button">Ücretsiz Randevu</button>
+      <button class="cta-button" (click)="goToRandevu()">Ücretsiz Randevu</button>
+
     </div>
     <div class="hero-img">
       <img [src]="service.coverImage" alt="{{ service.title }}">
