@@ -13,8 +13,16 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent }, // Hizmetler sayfası
   { path: 'appointments', component: AppointmentsComponent }, // Randevu alma sayfası
   { path: 'contact', component: ContactComponent },
-   { path: 'randevu', component: RandevuComponent },
-  { path: '**', redirectTo: 'randevu', pathMatch: 'full' } // Geçersiz URL’lerde ana sayfaya yönlendir
+  { path: 'randevu', component: RandevuComponent },
+  { path: '**', redirectTo: 'randevu', pathMatch: 'full' }, // Geçersiz URL’lerde ana sayfaya yönlendir
+{
+    path: 'admin',
+    loadChildren: () =>
+      import('./pages/admin/admin.module').then((m) => m.AdminModule),
+  },
+
+  { path: '**', redirectTo: 'randevu', pathMatch: 'full' }
+
 ];
 
 @NgModule({
@@ -22,6 +30,6 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {
-  
- }
+
+}
 
