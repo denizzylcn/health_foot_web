@@ -1,1 +1,27 @@
-<p>dashboard works!</p>
+<h2 class="title">Admin Panel</h2>
+
+<div class="card-container">
+  <mat-card class="dashboard-card">
+    <div class="icon">👤</div>
+    <div class="title">Toplam Kullanıcı</div>
+    <div class="value">{{ toplamKullanici }}</div>
+  </mat-card>
+
+  <mat-card class="dashboard-card">
+    <div class="icon">📅</div>
+    <div class="title">Bekleyen Randevu</div>
+    <div class="value">{{ bekleyenRandevu }}</div>
+  </mat-card>
+
+  <mat-card class="dashboard-card">
+    <div class="icon">✅</div>
+    <div class="title">Tamamlanan Randevu</div>
+    <div class="value">{{ tamamlananRandevu }}</div>
+  </mat-card>
+
+  <mat-card class="dashboard-card">
+    <div class="icon">💬</div>
+    <div class="title">Toplam Yorum</div>
+    <div class="value">{{ yorumSayisi }}</div>
+  </mat-card>
+</div>
