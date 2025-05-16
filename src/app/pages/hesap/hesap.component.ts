@@ -31,6 +31,10 @@ deleteRandevu(id: number): void {
 editRandevu(r: Randevu): void {
   this.router.navigate(['/randevu-guncelle', r.id]);
 }
+goToAdminPanel() {
+  window.location.href = 'http://localhost:4300';
+}
+
 
   ngOnInit(): void {
     const currentUserId = 1; // geçici olarak sabit kullanıcı ID

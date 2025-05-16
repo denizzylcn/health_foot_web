@@ -61,3 +61,6 @@ td {
   background-color: #ef5350;
   color: white;
 }
+a.action-btn {
+  text-decoration: none;
+}

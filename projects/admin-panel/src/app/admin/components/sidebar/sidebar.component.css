@@ -1,0 +1,12 @@
+mat-nav-list {
+  width: 220px;
+}
+
+a.mat-list-item {
+  font-weight: 500;
+  color: #333;
+}
+
+mat-icon {
+  margin-right: 8px;
+}
