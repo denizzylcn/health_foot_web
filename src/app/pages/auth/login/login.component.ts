@@ -39,9 +39,9 @@ export class LoginComponent {
   }
 
   const loginData = {
-    email: this.loginForm.value.email,
-    password: this.loginForm.value.password
-  };
+  email: this.loginForm.value.email,
+  password: this.loginForm.value.password
+};
 
   this.authService.login(loginData).subscribe({
     next: (res) => {

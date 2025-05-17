@@ -12,6 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { YorumlarComponent } from './yorumlar/yorumlar.component';
 
 @NgModule({
 
@@ -30,7 +31,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatListModule,
     MatIconModule,
     MatButtonModule,
-    RouterModule
+    RouterModule,
+     YorumlarComponent
   ]
 })
 export class AdminModule { }

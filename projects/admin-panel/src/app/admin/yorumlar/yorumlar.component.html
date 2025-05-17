@@ -1,1 +1,21 @@
-<p>yorumlar works!</p>
+<div class="yorumlar-container">
+  <h2>📋 Kullanıcı Yorumları</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>İsim</th>
+        <th>Yorum</th>
+        <th>Puan</th>
+        <th>Tarih</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let y of yorumlar">
+        <td>{{ y.name }}</td>
+        <td>{{ y.content }}</td>
+        <td>{{ y.rating }} ⭐</td>
+        <td>{{ y.createdAt | date:'short' }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
