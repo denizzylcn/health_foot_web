@@ -1,0 +1,16 @@
+<div class="container">
+  <h2 class="title">🦶 Ayak Analizi</h2>
+
+  <div class="upload-box">
+    <label class="custom-file-upload">
+      📷 Fotoğraf Seç
+      <input type="file" (change)="onFileSelected($event)">
+    </label>
+
+    <button class="upload-btn" (click)="uploadImage()">📤 Fotoğrafı Gönder</button>
+  </div>
+
+  <div class="result-box" *ngIf="responseMessage">
+    <p><strong>Analiz Sonucu:</strong> {{ responseMessage }}</p>
+  </div>
+</div>

@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 
 import { RandevuComponent } from './pages/randevu/randevu.component';
+import { AyakAnaliziComponent } from './pages/ayak-analizi/ayak-analizi.component';
 
 @NgModule({
   
@@ -14,6 +15,7 @@ import { RandevuComponent } from './pages/randevu/randevu.component';
     BrowserModule,
     HttpClientModule,
     FormsModule,
+     AyakAnaliziComponent,
     BrowserAnimationsModule,         // ✅ toastr için gerekli
     ToastrModule.forRoot(),          // ✅ toastr config
     RouterModule.forRoot([])    ,

@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/auth/login/login.component';
+import { AyakAnaliziComponent } from './pages/ayak-analizi/ayak-analizi.component';
 
 export const routes: Routes = [
   {
@@ -81,7 +82,12 @@ export const routes: Routes = [
     path: 'randevu-guncelle/:id',
     loadComponent: () => import('./pages/randevu-guncelle/randevu-guncelle.component')
       .then(m => m.RandevuGuncelleComponent)
-  }
+  },
+  {
+  path: 'ayak-analizi',
+  component: AyakAnaliziComponent
+},
+
 
 
 ];

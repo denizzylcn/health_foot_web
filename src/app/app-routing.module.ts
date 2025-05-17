@@ -5,6 +5,7 @@ import { ServicesComponent } from './pages/services/services.component';
 import { AppointmentsComponent } from './pages/appointments/appointments.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { RandevuComponent } from './pages/randevu/randevu.component';
+import { AyakAnaliziComponent } from './pages/ayak-analizi/ayak-analizi.component';
 
 
 
@@ -14,12 +15,9 @@ const routes: Routes = [
   { path: 'appointments', component: AppointmentsComponent }, // Randevu alma sayfası
   { path: 'contact', component: ContactComponent },
   { path: 'randevu', component: RandevuComponent },
-  { path: '**', redirectTo: 'randevu', pathMatch: 'full' }, // Geçersiz URL’lerde ana sayfaya yönlendir
-{
-    path: 'admin',
-    loadChildren: () =>
-      import('./pages/admin/admin.module').then((m) => m.AdminModule),
-  },
+  { path: 'ayak-analizi', component: AyakAnaliziComponent },
+
+ 
 
   { path: '**', redirectTo: 'randevu', pathMatch: 'full' }
 
