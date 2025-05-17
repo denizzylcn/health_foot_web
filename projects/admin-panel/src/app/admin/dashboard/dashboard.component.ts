@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
+import { RouterModule, Router } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [CommonModule, MatCardModule],
+  imports: [CommonModule, MatCardModule, RouterModule],
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
@@ -16,7 +17,7 @@ export class DashboardComponent implements OnInit {
   tamamlananRandevu: number = 0;
   yorumSayisi: number = 0;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private router: Router) {}
 
   ngOnInit(): void {
     this.http.get<number>('http://localhost:5130/api/Users/Sayi')
@@ -30,5 +31,9 @@ export class DashboardComponent implements OnInit {
 
     this.http.get<number>('http://localhost:5130/api/Comments/Sayi')
       .subscribe(data => this.yorumSayisi = data);
+  }
+
+  goTo(path: string): void {
+    this.router.navigate([`/${path}`]);
   }
 }

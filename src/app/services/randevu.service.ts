@@ -7,6 +7,9 @@ import { Randevu } from '../models/randevu.model';  // Modeli doğru import etti
   providedIn: 'root'  // Bu, servisin tüm uygulama genelinde erişilebilir olmasını sağlar
 })
 export class RandevuService {
+  onaylaRandevu(id: number) {
+    throw new Error('Method not implemented.');
+  }
 
 
   deleteRandevu(id: number): Observable<void> {

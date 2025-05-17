@@ -1,13 +1,13 @@
 <h2 class="title">Admin Panel</h2>
 
 <div class="card-container">
-  <mat-card class="dashboard-card">
+  <mat-card class="dashboard-card" (click)="goTo('kullanicilar')">
     <div class="icon">👤</div>
     <div class="title">Toplam Kullanıcı</div>
     <div class="value">{{ toplamKullanici }}</div>
   </mat-card>
 
-  <mat-card class="dashboard-card">
+  <mat-card class="dashboard-card" (click)="goTo('randevular')">
     <div class="icon">📅</div>
     <div class="title">Bekleyen Randevu</div>
     <div class="value">{{ bekleyenRandevu }}</div>
@@ -19,7 +19,7 @@
     <div class="value">{{ tamamlananRandevu }}</div>
   </mat-card>
 
-  <mat-card class="dashboard-card">
+  <mat-card class="dashboard-card" (click)="goTo('yorumlar')">
     <div class="icon">💬</div>
     <div class="title">Toplam Yorum</div>
     <div class="value">{{ yorumSayisi }}</div>

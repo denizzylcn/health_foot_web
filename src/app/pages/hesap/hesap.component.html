@@ -1,13 +1,12 @@
-<div class="hesap-wrapper">
-  <h2>Benim Randevularım</h2>
-
-  <table>
+<div class="hesap-container">
+  <h2 class="baslik">Randevu Listesi</h2>
+  <table class="hesap-tablosu">
     <thead>
       <tr>
         <th>Tarih</th>
         <th>Saat</th>
         <th>Açıklama</th>
-        <th>İşlemler</th>
+        <th>Durum</th>
       </tr>
     </thead>
     <tbody>
@@ -16,16 +15,28 @@
         <td>{{ r.saat }}</td>
         <td>{{ r.aciklama }}</td>
         <td>
-          <button class="action-btn update" (click)="editRandevu(r)">✏️ Güncelle</button>
-          <button class="action-btn delete" (click)="deleteRandevu(r.id)">🗑️ Sil</button>
+          <span class="badge" [ngStyle]="{
+      'background-color': r.durum === 'Bekliyor' ? '#ffc107' :
+                          r.durum === 'Tamamlandı' ? '#4caf50' : '#ccc',
+      'color': '#fff',
+      'padding': '4px 12px',
+      'border-radius': '20px',
+      'font-weight': 'bold'
+    }">
+            {{ r.durum || 'Bilinmiyor' }}
+          </span>
         </td>
+
+
+
       </tr>
     </tbody>
   </table>
 
-  <div style="text-align: center; margin-top: 30px;">
-    <a href="http://localhost:4300" target="_blank" class="action-btn update">
+  <!-- Buton alanı -->
+  <div class="panel-link">
+    <button class="admin-panel-btn" (click)="goToAdminPanel()">
       👑 Admin Paneline Git
-    </a>
+    </button>
   </div>
 </div>

@@ -4,7 +4,6 @@ import { RandevuService } from '../../services/randevu.service';
 import { Randevu } from '../../models/randevu.model';
 import { Router } from '@angular/router';
 
-
 @Component({
   selector: 'app-hesap',
   standalone: true,
@@ -15,32 +14,34 @@ import { Router } from '@angular/router';
 export class HesapComponent implements OnInit {
   randevular: Randevu[] = [];
 
- constructor(
-  private randevuService: RandevuService,
-  private router: Router
-) {}
+  constructor(
+    private randevuService: RandevuService,
+    private router: Router
+  ) {}
 
-deleteRandevu(id: number): void {
-  if (confirm('Bu randevuyu silmek istiyor musunuz?')) {
-    this.randevuService.deleteRandevu(id).subscribe(() => {
-      this.randevular = this.randevular.filter(r => r.id !== id);
-    });
+  deleteRandevu(id: number): void {
+    if (confirm('Bu randevuyu silmek istiyor musunuz?')) {
+      this.randevuService.deleteRandevu(id).subscribe(() => {
+        this.randevular = this.randevular.filter(r => r.id !== id);
+      });
+    }
   }
-}
 
-editRandevu(r: Randevu): void {
-  this.router.navigate(['/randevu-guncelle', r.id]);
-}
-goToAdminPanel() {
-  window.location.href = 'http://localhost:4300';
-}
+  editRandevu(r: Randevu): void {
+    this.router.navigate(['/randevu-guncelle', r.id]);
+  }
 
+  goToAdminPanel(): void {
+    window.location.href = 'http://localhost:4300';
+  }
 
   ngOnInit(): void {
-    const currentUserId = 1; // geçici olarak sabit kullanıcı ID
-    this.randevuService.getRandevular().subscribe(data => {
-      this.randevular = data.filter(r => r.kullaniciId === currentUserId);
-    });
-  }
+  const currentUserId = 1;
+  this.randevuService.getRandevular().subscribe((data: Randevu[]) => {
+    this.randevular = data.filter(r => r.kullaniciId === currentUserId);
+    console.log("Randevular: ", this.randevular);
+    this.randevular.forEach(r => console.log("Durum:", r.durum));
+  });
 }
 
+}

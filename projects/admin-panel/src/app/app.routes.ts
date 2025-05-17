@@ -8,39 +8,36 @@ export const routes: Routes = [
     children: [
       {
         path: '',
+        pathMatch: 'full',
         loadComponent: () =>
-          import('./admin/dashboard/dashboard.component').then(
-            (m) => m.DashboardComponent
-          ),
+          import('./admin/dashboard/dashboard.component').then(m => m.DashboardComponent),
       },
       {
         path: 'randevular',
         loadComponent: () =>
-          import('./admin/randevular/randevular.component').then(
-            (m) => m.RandevularComponent
-          ),
+          import('./admin/randevular/randevular.component').then(m => m.RandevularComponent),
       },
       {
         path: 'kullanicilar',
         loadComponent: () =>
-          import('./admin/kullanicilar/kullanicilar.component').then(
-            (m) => m.KullanicilarComponent
-          ),
+          import('./admin/kullanicilar/kullanicilar.component').then(m => m.KullanicilarComponent),
       },
       {
         path: 'hizmetler',
         loadComponent: () =>
-          import('./admin/hizmetler/hizmetler.component').then(
-            (m) => m.HizmetlerComponent
-          ),
+          import('./admin/hizmetler/hizmetler.component').then(m => m.HizmetlerComponent),
       },
       {
         path: 'yorumlar',
         loadComponent: () =>
-          import('./admin/yorumlar/yorumlar.component').then(
-            (m) => m.YorumlarComponent
-          ),
+          import('./admin/yorumlar/yorumlar.component').then(m => m.YorumlarComponent),
       },
     ]
+  },
+  // isteğe bağlı olarak hatalı yolları yakala
+  {
+    path: '**',
+    redirectTo: '',
+    pathMatch: 'full'
   }
 ];

@@ -1,29 +1,45 @@
+h2.title {
+  font-size: 28px;
+  color: #5c1f6f;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+  padding: 20px;
 }
 
 .dashboard-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+  color: #3c1053;
   padding: 20px;
+  border-radius: 16px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.dashboard-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .icon {
-  font-size: 28px;
-  margin-bottom: 6px;
+  font-size: 32px;
+  margin-bottom: 8px;
 }
 
 .title {
-  font-weight: 500;
-  color: #555;
-  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .value {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
-  color: #3f51b5;
 }
+

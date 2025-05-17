@@ -31,13 +31,14 @@ export class RandevuComponent implements OnInit {
     console.log('Form gönderildi:', this.tarih, this.saat);
 
     const yeniRandevu: Randevu = {
-      id: 0,
+      id: 1,
       kullaniciId: 1,
       tarih: this.tarih,
       saat: this.saat,
       aciklama: this.aciklama,
       email: this.email,
-      telefon: this.telefon
+      telefon: this.telefon,
+      durum: ''
     };
 
     this.randevuService.getRandevular().subscribe(randevular => {

@@ -11,14 +11,15 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
- 
+
   declarations: [],
   imports: [
     CommonModule,
     AdminRoutingModule,
-
+    HttpClientModule,
     // ✅ Standalone bileşenler
     LoginComponent,
     AdminLayoutComponent,
