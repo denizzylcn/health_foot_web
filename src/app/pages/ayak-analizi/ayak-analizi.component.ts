@@ -1,16 +1,32 @@
-import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { provideFirebaseApp, initializeApp } from '@angular/fire/app';
+import { provideStorage, getStorage } from '@angular/fire/storage';
+import { FirebaseService } from '../../services/firebase.service';
+import { environment } from '../../../environments/environment';
+
 
 @Component({
   selector: 'app-ayak-analizi',
+  standalone: true,
   templateUrl: './ayak-analizi.component.html',
-  styleUrls: ['./ayak-analizi.component.css'] 
+  styleUrls: ['./ayak-analizi.component.css'],
+  imports: [
+    CommonModule,
+    HttpClientModule
+  ],
+  providers: [
+    
+  ]
 })
+
 export class AyakAnaliziComponent {
   selectedFile!: File;
   responseMessage = '';
+  isLoading = false;
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient, private firebaseService: FirebaseService) {}
 
   onFileSelected(event: any) {
     this.selectedFile = event.target.files[0];
@@ -19,14 +35,24 @@ export class AyakAnaliziComponent {
   uploadImage() {
     if (!this.selectedFile) return;
 
-    const formData = new FormData();
-    formData.append('image', this.selectedFile);
+    this.isLoading = true;
 
-   this.http.post<{ result: string }>('http://localhost:5130/api/AyakAnaliz', formData)
-
-      .subscribe({
-        next: (res) => this.responseMessage = res.result,
-        error: (err) => this.responseMessage = 'Hata oluştu.'
+    this.firebaseService.uploadImage(this.selectedFile).then((url) => {
+      this.http.post<{ result: string }>('http://localhost:5130/api/AyakAnaliz/url', {
+        imageUrl: url
+      }).subscribe({
+        next: (res) => {
+          this.responseMessage = res.result;
+          this.isLoading = false;
+        },
+        error: (err) => {
+          this.responseMessage = 'Hata oluştu.';
+          this.isLoading = false;
+        }
       });
+    }).catch(() => {
+      this.responseMessage = 'Fotoğraf yüklenirken bir hata oluştu.';
+      this.isLoading = false;
+    });
   }
 }

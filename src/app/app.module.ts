@@ -8,18 +8,20 @@ import { ToastrModule } from 'ngx-toastr';
 
 import { RandevuComponent } from './pages/randevu/randevu.component';
 import { AyakAnaliziComponent } from './pages/ayak-analizi/ayak-analizi.component';
-
+import { environment } from '../environments/environment';
+ 
 @NgModule({
-  
+   declarations: [
+    AyakAnaliziComponent,
+    RandevuComponent
+  ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
-     AyakAnaliziComponent,
     BrowserAnimationsModule,         // ✅ toastr için gerekli
     ToastrModule.forRoot(),          // ✅ toastr config
-    RouterModule.forRoot([])    ,
-    RandevuComponent     // yönlendirmeler buraya eklenebilir
+    RouterModule.forRoot([])      
   ],
   providers: [],
   bootstrap: []  // Eğer standalone değilse buraya AppComponent vs. eklenir
