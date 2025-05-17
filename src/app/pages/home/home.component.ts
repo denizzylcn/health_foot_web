@@ -1,18 +1,29 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterModule, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { jwtDecode } from 'jwt-decode';
-
+import { YorumService } from '../../services/yorum.service';
+import { Yorum } from '../../models/yorum.model';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
-  imports: [CommonModule, RouterModule],
-  standalone: true
+  standalone: true,
+  imports: [CommonModule, RouterModule, FormsModule]
 })
 export class HomeComponent implements OnInit {
   welcomeMessage: string = '';
+  kullaniciId: number = 0;
+
+  yeniYorum: Yorum = {
+    id: 0,
+  name: '',
+  content: '',
+  rating: 5,
+  createdAt: ''
+  };
 
   services = [
     {
@@ -47,30 +58,41 @@ export class HomeComponent implements OnInit {
     }
   ];
 
-  constructor(private router: Router) {}
+
+  constructor(private router: Router, private yorumService: YorumService) {}
 
   ngOnInit(): void {
     const token = localStorage.getItem('token');
     if (token) {
       try {
-        const decoded: any = jwtDecode(token); // ✅ Burayı da düzelttik
-
+        const decoded: any = jwtDecode(token);
         const email = decoded["email"] || decoded["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress"];
-        const role = decoded["role"] || decoded["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+        const isim = email?.split('@')[0] || 'Ziyaretçi';
 
-        const isim = email?.split('@')[0] || 'kullanıcı';
-
-        if (role === 'User') {
-          this.welcomeMessage = `Hoş geldin, ${isim}! 👋`;
-        } else if (role === 'Employee') {
-          this.welcomeMessage = `Hoş geldiniz, ${isim}! 🧑‍💼`;
-        } else {
-          this.welcomeMessage = `Merhaba, ${isim}`;
-        }
+        this.yeniYorum.name = isim;
+        this.yeniYorum.createdAt = new Date().toISOString();
       } catch (e) {
         console.error('Token çözümleme hatası:', e);
       }
     }
+  }
+
+  yorumGonder(): void {
+    this.yorumService.yorumEkle(this.yeniYorum).subscribe({
+      next: () => {
+        alert('Yorum başarıyla gönderildi!');
+        this.yeniYorum = {
+          id: 0,
+          name: this.yeniYorum.name,
+          content: '',
+          rating: 5,
+          createdAt: new Date().toISOString()
+        };
+      },
+      error: (err) => {
+        console.error('Yorum gönderme hatası:', err);
+      }
+    });
   }
 
   navigateToLogin() {

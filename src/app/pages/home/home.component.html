@@ -1,5 +1,5 @@
-<div class="welcome-bar" >
-  
+<div class="welcome-bar">
+
 </div>
 
 
@@ -45,12 +45,35 @@
     </div>
   </div>
 </div>
+<div class="yorum-formu">
+  <h2>Görüşünüz Bizim İçin Değerli</h2>
+  <form (ngSubmit)="yorumGonder()" #yorumForm="ngForm" class="yorum-form">
+    <textarea
+      [(ngModel)]="yeniYorum.content"
+      name="content"
+      placeholder="Yorumunuzu buraya yazın..."
+      required>
+    </textarea>
+
+    <input
+      type="number"
+      [(ngModel)]="yeniYorum.rating"
+      name="rating"
+      min="1"
+      max="5"
+      required />
+
+    <button type="submit" [disabled]="yorumForm.invalid">Gönder</button>
+  </form>
+</div>
+
 
 
 <footer class="footer">
   <div class="footer-section">
     <h3>Ayak Bakım Elazığ</h3>
-    <p>📍 Sarıdağ Plaza, Yeni Mah. Muaammer Çorbacioğlu Sk. No:35 D:4.kat İç Kapı No:23, 23000 Elazığ Merkez / Elazığ</p>
+    <p>📍 Sarıdağ Plaza, Yeni Mah. Muaammer Çorbacioğlu Sk. No:35 D:4.kat İç Kapı No:23, 23000 Elazığ Merkez / Elazığ
+    </p>
     <p>📞 <a href="tel:+905354941431">+90 535 494 14 31</a></p>
     <p>💬 <a href="https://wa.me/905354941431" target="_blank">WhatsApp ile ulaşın</a></p>
   </div>
