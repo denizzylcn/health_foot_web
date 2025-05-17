@@ -18,12 +18,14 @@
         <td>{{ r.email }}</td>
         <td>{{ r.telefon }}</td>
         <td>{{ r.aciklama }}</td>
-        <td class="button-grup">
-          <button *ngIf="r.durum === 'Bekliyor'" class="onayla-btn" (click)="onayla(r.id)">✅ Onayla</button>
-          <button class="guncelle-btn" (click)="editRandevu(r)">✏️ Güncelle</button>
-          <button class="sil-btn" (click)="deleteRandevu(r.id)">🗑️ Sil</button>
+        <td class="button-group">
+          <button (click)="onayla(r.id)">✅ Onayla</button>
+          <button (click)="editRandevu(r)">✍️ Güncelle</button>
+          <button (click)="deleteRandevu(r.id)">🗑️ Sil</button>
+
         </td>
       </tr>
+
     </tbody>
   </table>
 </div>

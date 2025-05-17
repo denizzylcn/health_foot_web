@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
 import { CommonModule } from '@angular/common';
-import { Randevu } from '../../../../../../src/app/models/randevu.model';
-import { RandevuService } from '../services/randevu.service';
 
+import { RandevuService } from '../services/randevu.service';
+import { Randevu } from '../../../../../../src/app/models/randevu.model';
 
 @Component({
   selector: 'app-randevular',
@@ -24,25 +23,34 @@ export class RandevularComponent implements OnInit {
 
   getRandevular(): void {
     this.randevuService.getRandevular().subscribe((data: Randevu[]) => {
-      this.randevular = data;
+      console.log("Tüm randevular:", data);
+      this.randevular = data.filter(r => r.durum === 'Bekliyor');
     });
   }
 
-  onayla(id: number): void {
-    this.randevuService.onaylaRandevu(id).subscribe(() => {
-      this.getRandevular();
-    });
-  }
-
-  deleteRandevu(id: number): void {
-    if (confirm('Bu randevuyu silmek istiyor musunuz?')) {
-      this.randevuService.deleteRandevu(id).subscribe(() => {
-        this.getRandevular();
-      });
+ onayla(id: number): void {
+  this.randevuService.onaylaRandevu(id).subscribe({
+    next: () => {
+      console.log("Randevu onaylandı.");
+      this.getRandevular(); // listeyi güncelle
+    },
+    error: (err) => {
+      console.error("Onaylama işlemi başarısız:", err);
     }
-  }
+  });
+}
 
-  editRandevu(r: Randevu): void {
-    this.router.navigate(['/randevu-guncelle', r.id]);
+
+editRandevu(r: Randevu): void {
+  this.router.navigate(['/randevu-guncelle', r.id]);
+}
+
+deleteRandevu(id: number): void {
+  if (confirm('Bu randevuyu silmek istiyor musunuz?')) {
+    this.randevuService.deleteRandevu(id).subscribe(() => {
+      this.getRandevular(); // silindikten sonra yenile
+    });
   }
+}
+
 }
