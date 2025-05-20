@@ -6,15 +6,12 @@ import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 
-import { RandevuComponent } from './pages/randevu/randevu.component';
-import { AyakAnaliziComponent } from './pages/ayak-analizi/ayak-analizi.component';
 import { environment } from '../environments/environment';
+import { AyakAnaliziComponent } from './pages/ayak-analizi/ayak-analizi.component';
+import { RandevuComponent } from './pages/randevu/randevu.component';
  
 @NgModule({
-   declarations: [
-    AyakAnaliziComponent,
-    RandevuComponent
-  ],
+   
   imports: [
     BrowserModule,
     HttpClientModule,

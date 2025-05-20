@@ -11,4 +11,8 @@ export class FirebaseService {
     await uploadBytes(fileRef, file);
     return await getDownloadURL(fileRef);
   }
+  getStorageInstance() {
+  return this.storage;
+}
+
 }

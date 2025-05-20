@@ -4,10 +4,15 @@
   <div class="upload-box">
     <label class="custom-file-upload">
       📷 Fotoğraf Seç
-      <input type="file" (change)="onFileSelected($event)">
+      <input type="file" (change)="onFileSelected($event)" />
     </label>
 
     <button class="upload-btn" (click)="uploadImage()">📤 Fotoğrafı Gönder</button>
+  </div>
+
+  <div *ngIf="isUploading" class="upload-progress-container">
+    <div class="upload-bar" [style.width.%]="uploadProgress"></div>
+    <p>Yükleniyor: {{ uploadProgress | number: '1.0-0' }}%</p>
   </div>
 
   <div class="result-box" *ngIf="responseMessage">

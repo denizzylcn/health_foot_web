@@ -7,8 +7,6 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { RandevuComponent } from './pages/randevu/randevu.component';
 import { AyakAnaliziComponent } from './pages/ayak-analizi/ayak-analizi.component';
 
-
-
 const routes: Routes = [
   { path: '', component: HomeComponent }, // Ana sayfa
   { path: 'services', component: ServicesComponent }, // Hizmetler sayfası
@@ -17,11 +15,10 @@ const routes: Routes = [
   { path: 'randevu', component: RandevuComponent },
   { path: 'ayak-analizi', component: AyakAnaliziComponent },
 
- 
-
-  { path: '**', redirectTo: 'randevu', pathMatch: 'full' }
-
+  // bilinmeyen route'lar ana sayfaya yönlendirilir
+  { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
