@@ -1,5 +1,6 @@
 export const environment = {
   production: false,
+  apiBaseUrl: 'http://localhost:5130/api' ,
   firebase: {
     apiKey: "AIzaSyDRrVapcd8AfGQgYouzlhdInTsGeqBwmpc",
   authDomain: "healthfootapp.firebaseapp.com",
