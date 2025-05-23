@@ -28,7 +28,8 @@ const routes: Routes = [
       { path: 'hizmetler', component: HizmetlerComponent },
       { path: 'yorumlar', component: YorumlarComponent },
     ]
-  }
+  },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
