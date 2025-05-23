@@ -70,6 +70,21 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #3d1d91;
 }
+select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  border-color: #512da8;
+  outline: none;
+}
 
 
 .scroll-to-top {

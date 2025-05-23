@@ -9,6 +9,8 @@ import { ToastrModule } from 'ngx-toastr';
 import { environment } from '../environments/environment';
 import { AyakAnaliziComponent } from './pages/ayak-analizi/ayak-analizi.component';
 import { RandevuComponent } from './pages/randevu/randevu.component';
+
+
  
 @NgModule({
    

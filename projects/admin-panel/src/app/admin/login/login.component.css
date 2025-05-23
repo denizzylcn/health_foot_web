@@ -1,0 +1,19 @@
+.login-wrapper {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 24px;
+  background-color: #f3f0ff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.login-wrapper input, button {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+.hata {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}

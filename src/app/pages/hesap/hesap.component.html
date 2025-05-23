@@ -16,19 +16,16 @@
         <td>{{ r.aciklama }}</td>
         <td>
           <span class="badge" [ngStyle]="{
-      'background-color': r.durum === 'Bekliyor' ? '#ffc107' :
-                          r.durum === 'Tamamlandı' ? '#4caf50' : '#ccc',
-      'color': '#fff',
-      'padding': '4px 12px',
-      'border-radius': '20px',
-      'font-weight': 'bold'
-    }">
+              'background-color': r.durum === 'Bekliyor' ? '#ffc107' :
+                                  r.durum === 'Tamamlandı' ? '#4caf50' : '#ccc',
+              'color': '#fff',
+              'padding': '4px 12px',
+              'border-radius': '20px',
+              'font-weight': 'bold'
+            }">
             {{ r.durum || 'Bilinmiyor' }}
           </span>
         </td>
-
-
-
       </tr>
     </tbody>
   </table>

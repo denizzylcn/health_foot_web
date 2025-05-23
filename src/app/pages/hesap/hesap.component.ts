@@ -27,21 +27,18 @@ export class HesapComponent implements OnInit {
     }
   }
 
-  editRandevu(r: Randevu): void {
-    this.router.navigate(['/randevu-guncelle', r.id]);
-  }
+ 
 
   goToAdminPanel(): void {
-    window.location.href = 'http://localhost:4300';
+    window.location.href = 'http://localhost:4300/login';
   }
 
   ngOnInit(): void {
-  const currentUserId = 1;
-  this.randevuService.getRandevular().subscribe((data: Randevu[]) => {
-    this.randevular = data.filter(r => r.kullaniciId === currentUserId);
-    console.log("Randevular: ", this.randevular);
-    this.randevular.forEach(r => console.log("Durum:", r.durum));
-  });
-}
-
+    const currentUserId = 1;
+    this.randevuService.getRandevular().subscribe((data: Randevu[]) => {
+      this.randevular = data.filter(r => r.kullaniciId === currentUserId);
+      console.log("Randevular: ", this.randevular);
+      this.randevular.forEach(r => console.log("Durum:", r.durum));
+    });
+  }
 }

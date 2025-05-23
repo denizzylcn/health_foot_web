@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { AuthGuard } from '../../projects/admin-panel/src/app/admin/auth.guard';
 
 export const routes: Routes = [
   {
@@ -91,6 +92,7 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/ayak-analizi/ayak-analizi.component').then(m => m.AyakAnaliziComponent),
   },
+  
   {
     path: '**',
     redirectTo: '',

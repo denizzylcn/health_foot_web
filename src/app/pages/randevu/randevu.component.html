@@ -8,10 +8,21 @@
 
   <form (ngSubmit)="randevuAl()" #form="ngForm" novalidate>
     <label for="tarih">Tarih:</label>
-    <input type="date" id="tarih" name="tarih" [(ngModel)]="tarih" required>
+    <input
+      type="date"
+      id="tarih"
+      name="tarih"
+      [(ngModel)]="tarih"
+      (change)="tarihDegisti()"
+      required
+    >
 
     <label for="saat">Saat:</label>
-    <input type="time" id="saat" name="saat" [(ngModel)]="saat" required>
+    <select id="saat" name="saat" [(ngModel)]="saat" required>
+      <option *ngFor="let s of saatler" [value]="s" [disabled]="doluSaatler.includes(s)">
+        {{ s }} <span *ngIf="doluSaatler.includes(s)"> (Dolu)</span>
+      </option>
+    </select>
 
     <label for="aciklama">Açıklama:</label>
     <input type="text" id="aciklama" name="aciklama" [(ngModel)]="aciklama" required>
@@ -24,7 +35,6 @@
 
     <button type="submit">Randevu Oluştur</button>
   </form>
-
 
   <!-- Yukarı Çık Butonu -->
   <button class="scroll-to-top" (click)="scrollToTop()">↑</button>
