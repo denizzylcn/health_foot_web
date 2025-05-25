@@ -17,6 +17,9 @@ export class DashboardComponent implements OnInit {
   tamamlananRandevu: number = 0;
   yorumSayisi: number = 0;
 
+  yaklasanRandevular: any[] = [];
+  sonYorumlar: any[] = [];
+
   constructor(private http: HttpClient, private router: Router) {}
 
   ngOnInit(): void {
@@ -31,6 +34,11 @@ export class DashboardComponent implements OnInit {
 
     this.http.get<number>('http://localhost:5130/api/Comments/Sayi')
       .subscribe(data => this.yorumSayisi = data);
+
+    this.http.get<any[]>('http://localhost:5130/api/Randevu/Yaklasanlar')
+      .subscribe(data => this.yaklasanRandevular = data);
+
+   
   }
 
   goTo(path: string): void {

@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, tap } from 'rxjs';
 import { jwtDecode } from 'jwt-decode';
 
-
 @Injectable({
   providedIn: 'root'
 })
@@ -12,26 +11,28 @@ export class AuthService {
 
   constructor(private http: HttpClient) {}
 
+  // ✅ Giriş
   login(data: { email: string; password: string }): Observable<any> {
     return this.http.post(`${this.apiUrl}/login`, {
       email: data.email,
-      passwordHash: data.password  // backend bunu bekliyor
+      password: data.password
     }).pipe(
       tap((res: any) => {
-        console.log('API CEVABI:', res);
         if (res.token) {
           localStorage.setItem('token', res.token);
-          localStorage.setItem('fullName', res.fullName); // varsa
-          localStorage.setItem('role', res.role); // varsa
+          localStorage.setItem('fullName', res.fullName || '');
+          localStorage.setItem('role', res.role || '');
         }
       })
     );
   }
 
-  register(data: { name: string; email: string; password: string }): Observable<any> {
+  // ✅ Kayıt
+  register(data: { fullName: string; email: string; password: string }): Observable<any> {
     return this.http.post(`${this.apiUrl}/register`, data);
   }
 
+  // 🔐 Token işlemleri
   getToken(): string | null {
     return localStorage.getItem('token');
   }

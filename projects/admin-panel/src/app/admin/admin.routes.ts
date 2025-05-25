@@ -20,7 +20,7 @@ export const adminRoutes: Routes = [
     children: [
       {
         path: 'dashboard',
-        loadComponent: () => import('./home/home.component').then(m => m.HomeComponent)
+        loadComponent: () => import('./dashboard/dashboard.component').then(m => m.DashboardComponent)
       },
       {
         path: 'randevular',

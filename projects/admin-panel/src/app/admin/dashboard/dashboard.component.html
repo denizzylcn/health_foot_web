@@ -1,5 +1,6 @@
 <h2 class="title">Admin Panel</h2>
 
+<!-- 🟣 Kartlar -->
 <div class="card-container">
   <mat-card class="dashboard-card" (click)="goTo('kullanicilar')">
     <div class="icon">👤</div>
@@ -25,3 +26,22 @@
     <div class="value">{{ yorumSayisi }}</div>
   </mat-card>
 </div>
+
+<!-- 🗓️ Yaklaşan Randevular -->
+<div class="panel-section">
+  <h3>Yaklaşan Randevular</h3>
+  <div class="card-container">
+    <mat-card class="dashboard-card" *ngFor="let r of yaklasanRandevular">
+      <div class="icon">🗓️</div>
+      <div class="title">
+        {{ r.tarih | date:'dd MMMM yyyy' }} - {{ r.saat }}
+      </div>
+      <div class="value" style="font-size: 16px; font-weight: normal;">
+        {{ r.ad }}
+      </div>
+    </mat-card>
+  </div>
+</div>
+
+
+
